@@ -70,6 +70,8 @@ for "_i" from 0 to 1 step 0 do {
             life_maxWeight = LIFE_SETTINGS(getNumber,"total_maxWeight") + round(FETCH_CONFIG2(getNumber,"CfgVehicles",_bp,"maximumload") / 4);
         };
     };
+    if(playerSide == west) then {(unitBackpack player) setObjectTextureGlobal [0,""];}; // <---- Unsichtbar GNRA
+    if(playerSide == independent) then {(unitBackpack player) setObjectTextureGlobal [0,""];}; // <----- Unsichtbar ART
 
     /* Check if the player's state changed? */
     if (!(vehicle player isEqualTo _lastState) || {!alive player}) then {
