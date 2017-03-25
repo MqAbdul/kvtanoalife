@@ -100,8 +100,8 @@ class CarShops {
         conditions = "";
         vehicles[] = {
             { "C_Offroad_01_F", "" },
-            { "I_Truck_02_medical_F", "" },
-            { "O_Truck_03_medical_F", "" },
+            { "B_Truck_01_transport_F", "" },
+            { "C_SUV_01_F", "" },
             { "B_Truck_01_medical_F", "" }
         };
     };
@@ -111,7 +111,7 @@ class CarShops {
         conditions = "";
         vehicles[] = {
             { "B_Heli_Light_01_F", "" },
-            { "O_Heli_Light_02_unarmed_F", "" }
+            { "I_Heli_Transport_02_F", "" }
         };
     };
 
@@ -520,6 +520,9 @@ class LifeCfgVehicles {
             { "Taxi", "civ", {
                 "#(argb,8,8,3)color(0.6,0.3,0.01,1)"
             }, "" },
+            { "ART", "med", {
+                "textures\art\medic_offroad.jpg"
+            }, "" },
             { "Police", "cop", {
                 "#(ai,64,64,1)Fresnel(1.3,7)"
             }, "" }
@@ -692,6 +695,9 @@ will modify the virtual space and the price of the vehicle, but other informatio
             { "Orange", "civ", {
                 "\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_04_co.paa"
             }, "" },
+            { "ART", "med", {
+                "textures\art\suv_art.jpg"
+            }, "" },
             { "Police", "cop", {
                 "\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_02_co.paa"
             }, "" }
@@ -719,6 +725,10 @@ will modify the virtual space and the price of the vehicle, but other informatio
         textures[] = {
             { "White", "civ", {
                 "\a3\soft_f_gamma\Van_01\Data\van_01_ext_co.paa"
+            }, "" },
+            { "ART", "med", {
+                "textures\art\art_truck_front.jpg",
+                "textures\art\art_truck_back.jpg"
             }, "" },
             { "Red", "civ", {
                 "\a3\soft_f_gamma\Van_01\Data\van_01_ext_red_co.paa"
@@ -797,7 +807,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
                 "\a3\air_f\Heli_Light_01\Data\heli_light_01_ext_indp_co.paa"
             }, "" },
             { "EMS White", "med", {
-                "#(argb,8,8,3)color(1,1,1,0.8)"
+                "textúres\art\art_humming.jpg"
             }, "" }
         };
     };
@@ -873,5 +883,18 @@ will modify the virtual space and the price of the vehicle, but other informatio
         conditions = "license_civ_trucking || {!(playerSide isEqualTo civilian)}";
         price = 250000;
         textures[] = {};
+    };
+    class I_Heli_Transport_02_F {
+        vItemSpace = 250;
+        vFuelSpace = 500000;
+        conditions = "license_civ_trucking || {!(playerSide isEqualTo civilian)}";
+        price = 950000;
+        textures[] = {
+            { "ART", "med", {
+                "textures\art\art_mowhawk.jpg",
+                "textures\art\art_mowhawk2.jpg",
+                "textures\art\art_mowhawk3.jpg"
+            }, "" }
+        };
     };
 };
