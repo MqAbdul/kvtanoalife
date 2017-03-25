@@ -119,11 +119,10 @@ class CarShops {
         side = "cop";
         conditions = "";
         vehicles[] = {
-            { "C_Offroad_01_F", "" },
+            { "B_GEN_Offroad_01_gen_F", "" },
             { "C_SUV_01_F", "" },
             { "C_Hatchback_01_sport_F", "call life_coplevel >= 1" },
-            { "B_MRAP_01_F", "call life_coplevel >= 2" },
-            { "B_MRAP_01_hmg_F", "call life_coplevel >= 3" }
+            { "B_MRAP_01_F", "call life_coplevel >= 2" }
         };
     };
 
@@ -571,8 +570,8 @@ will modify the virtual space and the price of the vehicle, but other informatio
             { "Green", "civ", {
                 "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_sport06_co.paa"
             }, "" },
-            { "Police", "cop", {
-                "#(ai,64,64,1)Fresnel(1.3,7)"
+            { "GNRA", "cop", {
+                "textures\gnra\hatchback_gendarm.jpg"
             }, "" }
         };
     };
@@ -698,8 +697,8 @@ will modify the virtual space and the price of the vehicle, but other informatio
             { "ART", "med", {
                 "textures\art\suv_art.jpg"
             }, "" },
-            { "Police", "cop", {
-                "\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_02_co.paa"
+            { "GNRA", "cop", {
+                "textures\gnra\suv_gendarm.jpg"
             }, "" }
         };
     };
@@ -744,6 +743,10 @@ will modify the virtual space and the price of the vehicle, but other informatio
             { "Black", "cop", {
                 "#(argb,8,8,3)color(0.05,0.05,0.05,1)",
                 "#(argb,8,8,3)color(0.05,0.05,0.05,1)"
+            }, "" },
+            { "GNRA", "cop", {
+                "textures\gnra\hunter_gendarm_front",
+                "textures\gnra\hunter_gendarm_back"
             }, "" }
         };
     };
@@ -764,8 +767,8 @@ will modify the virtual space and the price of the vehicle, but other informatio
         conditions = "license_civ_pilot || {license_cop_cAir} || {license_med_mAir}";
         price = 245000;
         textures[] = {
-            { "Police", "cop", {
-                "\a3\air_f\Heli_Light_01\Data\heli_light_01_ext_ion_co.paa"
+            { "GNRA", "cop", {
+                "textures\gnra\humming_gendarm.jpg"
             }, "" },
             { "Sheriff", "civ", {
                 "\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_sheriff_co.paa"
