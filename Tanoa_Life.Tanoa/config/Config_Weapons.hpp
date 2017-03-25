@@ -6,7 +6,7 @@
 *            in any combination. For example:
 *                "call life_coplevel && license_civ_someLicense"
 *            This will also let you call any other function.
-*            
+*
 *
 *    ARRAY FORMAT:
 *        0: STRING (Classname): Item Classname
@@ -59,7 +59,6 @@ class WeaponShops {
             { "arifle_AKS_F", "", 22000, 11000, "" }, //Apex DLC
             { "arifle_AKM_F", "", 22000, 11000, "" }, //Apex DLC
             { "arifle_ARX_blk_F", "", 22000, 11000, "" }, //Apex DLC
-            { "arifle_SPAR_01_blk_F", "", 33000, 16500, "" }, //Apex DLC
             { "arifle_CTAR_blk_F", "", 30000, 15000, "" } //Apex DLC
         };
         mags[] = {
@@ -159,11 +158,11 @@ class WeaponShops {
             { "hgun_P07_F", "", 7500, 3750, "" },
             { "hgun_P07_khk_F", "", 7500, 3750, "" }, //Apex DLC
             { "hgun_Pistol_heavy_01_F", "", 9500, 4750, "call life_coplevel >= 1" },
-            { "SMG_02_ACO_F", "", 30000, 15000, "call life_coplevel >= 2" },
-            { "arifle_MX_F", "", 35000, 17500, "call life_coplevel >= 2" },
+            { "SMG_05_F", "", 30000, 15000, "call life_coplevel >= 2" },
+            { "arifle_SPAR_01_blk_F", "", 35000, 17500, "call life_coplevel >= 1" },
             { "hgun_ACPC2_F", "", 17500, 8750, "call life_coplevel >= 3" },
             { "arifle_MXC_F", "", 30000, 15000, "call life_coplevel >= 3" },
-            { "srifle_DMR_07_blk_F", "", 32000, 16000, "call life_coplevel >= 3" } //Apex DLC Sniper
+            { "arifle_SPAR_03_blk_F", "", 32000, 16000, "call life_coplevel >= 3" } //Apex DLC Sniper
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "", 125, 60, "" },
@@ -172,10 +171,12 @@ class WeaponShops {
             { "30Rnd_65x39_caseless_mag", "", 130, 65, "call life_coplevel >= 2" },
             { "30Rnd_9x21_Mag", "", 250, 125, "call life_coplevel >= 2" },
             { "9Rnd_45ACP_Mag", "", 200, 100, "call life_coplevel >= 3" },
-            { "20Rnd_650x39_Cased_Mag_F", "", 200, 100, "call life_coplevel >= 3" } //Apex DLC
+            { "30Rnd_556x45_Stanag", "", 130, 65, "call life_coplevel >= 1" },
+            { "20Rnd_762x51_Mag", "", 200, 100, "call life_coplevel >= 3" } //Apex DLC
         };
         accs[] = {
             { "muzzle_snds_L", "", 650, 325, "" },
+            { "optic_Aco", "", 650, 325, "" },
             { "optic_MRD", "", 2750, 1375, "call life_coplevel >= 1" },
             { "acc_flashlight", "", 750, 375, "call life_coplevel >= 2" },
             { "optic_Holosight", "", 1200, 600, "call life_coplevel >= 2" },
