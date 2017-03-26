@@ -810,7 +810,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
                 "\a3\air_f\Heli_Light_01\Data\heli_light_01_ext_indp_co.paa"
             }, "" },
             { "EMS White", "med", {
-                "textúres\art\art_humming.jpg"
+                "textures\art\art_humming.jpg"
             }, "" }
         };
     };
