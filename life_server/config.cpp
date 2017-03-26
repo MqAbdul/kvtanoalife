@@ -27,6 +27,13 @@ class CfgFunctions {
             class mresString {};
             class updatePartial {};
         };
+        class perso
+         {
+             file = "\life_server\Functions\MySQL\perso";
+             class persoRequest {};
+             class persoInsert {};
+             class persoUpdate {};
+         };
     };
 
     class Life_System {

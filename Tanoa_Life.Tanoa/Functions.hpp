@@ -372,4 +372,33 @@ class Life_Client_Core {
         class vehTakeItem {};
         class vInteractionMenu {};
     };
+
+    class felixvonstudsinske
+        {
+         tag = "fvs";
+         class perso
+         {
+         file = "core\pmenu\perso";
+         class perso_laden {};
+         class persoCheck {};
+         class persoCheck_aenderung {};
+         class persoErgebnis {};
+         class persoNeu {};
+         class updateTag {};
+         class updateTagA {};
+         class updateMonat {};
+         class updateMonatA {};
+         class updateHsnr {};
+         class updateHsnrA {};
+         class updateStrasse {};
+         class updateStrasseA {};
+         class persoBeantragen {};
+         class persoBeantragenAenderung {};
+         class persoInteractionMenu {};
+         class zeigePerso {};
+         class updatePersoBild {};
+         class updatePersoBildA {};
+         class aenderePerso {};
+         };
+};
 };

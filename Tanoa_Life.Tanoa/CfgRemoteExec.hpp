@@ -68,6 +68,18 @@ class CfgRemoteExec {
         F(TON_fnc_clientGetKey,CLIENT)
         F(TON_fnc_clientMessage,CLIENT)
         F(TON_fnc_player_query,CLIENT)
+        F(fvs_fnc_perso_laden,CLIENT) // Perso
+        F(fvs_fnc_persoBeantragen,CLIENT) // Perso
+        F(fvs_fnc_persoCheck,CLIENT) // Perso
+        F(fvs_fnc_persoErgebnis,CLIENT) // Perso
+        F(fvs_fnc_persoNeu,CLIENT) // Perso
+        F(fvs_fnc_updateMonat,CLIENT) // Perso
+        F(fvs_fnc_updateTag,CLIENT) // Perso
+        F(fvs_fnc_zeigePerso,CLIENT) // Perso
+        F(fvs_fnc_updatePersoBild,CLIENT) // Perso
+        F(DB_fnc_persoRequest,SERVER) // Perso
+        F(DB_fnc_persoInsert,SERVER) // Perso
+        F(DB_fnc_persoUpdate,SERVER) // Perso
 
         /* Server only functions */
         F(BIS_fnc_execVM,SERVER)

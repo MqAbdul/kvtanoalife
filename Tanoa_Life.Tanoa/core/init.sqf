@@ -73,6 +73,13 @@ switch (playerSide) do {
     };
 };
 
+
+diag_log "::Client:: Pruefe Personalausweisdaten.";
+0 cutText ["Ueberpruefe Daten des Personalausweises...","BLACK FADED"];
+[] call fvs_fnc_perso_laden;
+0 cutFadeOut 99999999;
+waitUntil{fvs_persoReady};
+
 switch (playerSide) do {
     case west: {
         _handle = [] spawn life_fnc_initCop;

@@ -63,6 +63,19 @@ class playerSettings {
             h = 0.04;
         };
 
+        class perso_idcard: Life_RscButtonMenu
+        {
+            onButtonClick = "private[""_rang_1""]; _rang_1 = switch(playerSide) do {case west: {str(call life_coplevel)};case independent: {str(call life_mediclevel)};case civilian: {""""};case east: {""""};}; [player,_rang_1] remoteExecCall [""fvs_fnc_zeigePerso"",player]; closeDialog 0;";
+            idc = -1;
+
+            text = "ID CARD";
+            x = 0.738657;
+            y = 0.849;
+            w = 0.15625;
+            h = 0.04;
+            tooltip = "Meinen Personal-/Dienstausweis ansehen \/ Take a look on my ID card";
+        };
+
         class licenseHeader: Life_RscText {
             idc = -1;
             colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", 0.5};

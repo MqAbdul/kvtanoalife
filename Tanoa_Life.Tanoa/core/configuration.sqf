@@ -48,6 +48,14 @@ life_pos_attach = [];
 life_civ_position = [];
 life_markers = false;
 life_canpay_bail = true;
+fvs_persoReady = false;
+fvs_hakenregeln = false;
+fvs_checking = false;
+fvs_hakenrichtig = false;
+fvs_namenInfo = false;
+fvs_checking_a = false;
+fvs_namen_a = false;
+fvs_hakendaten = false;
 
 //Settings
 life_settings_enableNewsBroadcast = profileNamespace getVariable ["life_enableNewsBroadcast",true];
