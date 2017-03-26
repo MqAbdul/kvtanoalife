@@ -745,8 +745,8 @@ will modify the virtual space and the price of the vehicle, but other informatio
                 "#(argb,8,8,3)color(0.05,0.05,0.05,1)"
             }, "" },
             { "GNRA", "cop", {
-                "textures\gnra\hunter_gendarm_front",
-                "textures\gnra\hunter_gendarm_back"
+                "textures\gnra\Hunter_Gendarm_Front.jpg",
+                "textures\gnra\hunter_gendarm_back.jpg"
             }, "" }
         };
     };
