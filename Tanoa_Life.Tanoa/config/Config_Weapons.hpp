@@ -233,7 +233,7 @@ class WeaponShops {
 			{ "30Rnd_9x21_Mag_SMG_02", "", 150, 75, "" },
             { "10Rnd_50BW_Mag_F", "", 300, 150, "" },
             { "10Rnd_338_Mag", "", 300, 150, "" },
-            { "1Rnd_Smoke_Grenade_shell", "", 100, 50 "" }
+            { "1Rnd_Smoke_Grenade_shell", "", 100, 50, "" }
         };
         accs[] = {
             { "muzzle_snds_L", "", 650, 325, "" },
