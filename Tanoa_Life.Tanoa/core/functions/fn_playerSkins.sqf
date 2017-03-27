@@ -45,11 +45,14 @@ switch (playerSide) do {
             };
             player setObjectTextureGlobal [0, _skinName];
         };
+        (unitBackpack player) setObjectTextureGlobal [0,""];
+
     };
 
     case independent: {
         if (uniform player isEqualTo "U_Rangemaster") then {
             player setObjectTextureGlobal [0, "textures\art\art_uniform.jpg"];
         };
+        (unitBackpack player) setObjectTextureGlobal [0,""];
     };
 };
