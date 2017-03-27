@@ -50,7 +50,7 @@ switch (playerSide) do {
     };
 
     case independent: {
-        if (uniform player isEqualTo "U_Rangemaster") then {
+        if (uniform player isEqualTo "U_I_HeliPilotCoveralls") then {
             player setObjectTextureGlobal [0, "textures\art\art_uniform.jpg"];
         };
         (unitBackpack player) setObjectTextureGlobal [0,""];
