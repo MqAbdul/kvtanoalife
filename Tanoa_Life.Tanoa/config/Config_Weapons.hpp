@@ -162,7 +162,12 @@ class WeaponShops {
             { "arifle_SPAR_01_blk_F", "", 35000, 17500, "call life_coplevel >= 1" },
             { "hgun_ACPC2_F", "", 17500, 8750, "call life_coplevel >= 3" },
             { "arifle_MXC_F", "", 30000, 15000, "call life_coplevel >= 3" },
-            { "arifle_SPAR_03_blk_F", "", 32000, 16000, "call life_coplevel >= 3" } //Apex DLC Sniper
+            { "arifle_SPAR_03_blk_F", "", 32000, 16000, "call life_coplevel >= 3" },			//Apex DLC Sniper
+			{"SMG_05_F", "", 10000, 5000, ""},
+            {"arifle_SPAR_01_blk_F", "", 30000, 15000, "call life_coplevel >= 1"},
+            {"arifle_SPAR_01_GL_blk_F", "", 35000, 17500, "call life_coplevel >= 1"},
+            {"arifle_ARX_blk_F", "", 50000, 25000, "call life_coplevel >= 1"},
+            {"srifle_DMR_02_F", "", 50000, 25000, "call life_coplevel >= 1"}
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "", 125, 60, "" },
@@ -172,7 +177,11 @@ class WeaponShops {
             { "30Rnd_9x21_Mag", "", 250, 125, "call life_coplevel >= 2" },
             { "9Rnd_45ACP_Mag", "", 200, 100, "call life_coplevel >= 3" },
             { "30Rnd_556x45_Stanag", "", 130, 65, "call life_coplevel >= 1" },
-            { "20Rnd_762x51_Mag", "", 200, 100, "call life_coplevel >= 3" } //Apex DLC
+            { "20Rnd_762x51_Mag", "", 200, 100, "call life_coplevel >= 3" }, //Apex DLC
+			{"30Rnd_9x21_Mag_SMG_02", "", 1500, 750, ""},
+            {"10Rnd_50BW_Mag_F", "", 5000, 2500, ""},
+            {"10Rnd_338_Mag", "", 5000, 2500, ""},
+            {"1Rnd_Smoke_Grenade_shell", "", 1000, 500 ""}
         };
         accs[] = {
             { "muzzle_snds_L", "", 650, 325, "" },
@@ -181,7 +190,17 @@ class WeaponShops {
             { "acc_flashlight", "", 750, 375, "call life_coplevel >= 2" },
             { "optic_Holosight", "", 1200, 600, "call life_coplevel >= 2" },
             { "optic_Arco", "", 2500, 1250, "call life_coplevel >= 2" },
-            { "muzzle_snds_H", "", 2750, 1375, "call life_coplevel >= 2" }
+            { "muzzle_snds_H", "", 2750, 1375, "call life_coplevel >= 2" },
+            {"optic_Hamr", "", 4500, 2250, ""},
+            {"optic_MRCO", "", 10000, 5000, ""},
+            {"optic_DMS", "", 14500, 7250, ""},
+            {"optic_KHS_blk", "", 14500, 7250, ""},
+            {"optic_AMS", "", 5000, 2500, ""},
+            {"bipod_03_F_blk", "", 1000, 500, ""},
+            {"muzzle_snds_L", "", 1000, 500, ""},
+            {"muzzle_snds_M", "", 2000, 1000, ""},
+            {"muzzle_snds_B", "", 3000, 1500, ""},
+            {"muzzle_snds_338_black", "", 4000, 2000, ""}
         };
     };
 
