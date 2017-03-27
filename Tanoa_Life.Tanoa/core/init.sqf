@@ -178,6 +178,10 @@ life_hideoutBuildings = [];
     false
 } count ["gang_area_1","gang_area_2","gang_area_3"];
 
+//DynMarket
+DYNAMICMARKET_boughtItems = [];
+[player] remoteExec ["TON_fnc_playerLogged",RSERV];
+
 diag_log "----------------------------------------------------------------------------------------------------";
 diag_log format ["               End of Altis Life Client Init :: Total Execution Time %1 seconds ",(diag_tickTime) - _timeStamp];
 diag_log "----------------------------------------------------------------------------------------------------";

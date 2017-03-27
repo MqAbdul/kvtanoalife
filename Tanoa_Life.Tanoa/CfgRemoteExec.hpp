@@ -77,6 +77,7 @@ class CfgRemoteExec {
         F(fvs_fnc_updateTag,CLIENT) // Perso
         F(fvs_fnc_zeigePerso,CLIENT) // Perso
         F(fvs_fnc_updatePersoBild,CLIENT) // Perso
+        F(life_fnc_update,CLIENT) //DynMarket
 
 
         /* Server only functions */
@@ -123,6 +124,9 @@ class CfgRemoteExec {
         F(DB_fnc_persoRequest,SERVER) // Perso
         F(DB_fnc_persoInsert,SERVER) // Perso
         F(DB_fnc_persoUpdate,SERVER) // Perso
+        F(TON_fnc_playerLogged,SERVER) //DynMarket
+        F(TON_fnc_getUpdate,SERVER) //DynMarket
+        F(TON_fnc_changePrice, SERVER) //DynMarket
 
         /* HeadlessClient only functions */
         F(HC_fnc_addContainer,HC)
