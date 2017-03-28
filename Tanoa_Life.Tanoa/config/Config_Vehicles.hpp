@@ -531,7 +531,7 @@ class LifeCfgVehicles {
         vItemSpace = 60;
         conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
         price = 150000;
-        textures[] = { };
+        textures[] = {
             { "TarnRot", "reb", {
                 "textures\civ\ifrit_r1.jpg",
 				"textures\civ\ifrit_r2.jpg"
