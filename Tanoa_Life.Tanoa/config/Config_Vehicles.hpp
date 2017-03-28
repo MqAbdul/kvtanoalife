@@ -610,9 +610,6 @@ class LifeCfgVehicles {
             }, "" },
             { "ART", "med", {
                 "textures\art\medic_offroad.jpg"
-            }, "" },
-            { "GNRA", "cop", {
-                "#(ai,64,64,1)Fresnel(1.3,7)"
             }, "" }
         };
     };
@@ -876,7 +873,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
 
     class B_MRAP_01_F {
         vItemSpace = 65;
-        conditions = "";
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
         price = 30000;
         textures[] = {
             { "Digital Rot", "reb", {
@@ -1035,6 +1032,25 @@ will modify the virtual space and the price of the vehicle, but other informatio
         vFuelSpace = 50000;
         conditions = "license_civ_trucking || {!(playerSide isEqualTo civilian)}";
         price = 250000;
+        textures[] = {};
+    };
+	class I_MRAP_03_F {
+        vItemSpace = 50;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 500000;
+        textures[] = {
+            { "Rebel", "reb", {
+                "\textures\civ\rebel.jpg"
+            }, "" },
+            { "GIGN", "cop", {
+                "\textures\gnra\Strider_gign.jpg"
+            }, "" }
+        };
+    };	
+	class B_GEN_Offroad_01_gen_F {
+        vItemSpace = 50;
+        conditions = "";
+        price = 6000;
         textures[] = {};
     };
     class I_Heli_Transport_02_F {
