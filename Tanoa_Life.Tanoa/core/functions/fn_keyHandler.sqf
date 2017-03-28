@@ -128,8 +128,16 @@ switch (_code) do {
         if (_shift) then {_handled = true;};
         if (_shift && playerSide isEqualTo west && {!isNull cursorObject} && {cursorObject isKindOf "Man"} && {(isPlayer cursorObject)} && {(side cursorObject in [civilian,independent])} && {alive cursorObject} && {cursorObject distance player < 3.5} && {!(cursorObject getVariable "Escorting")} && {!(cursorObject getVariable "restrained")} && {speed cursorObject < 1}) then {
             [] call life_fnc_restrainAction;
+			} else {
+            if (_shift && playerSide isEqualTo civilian && {!isNull cursorObject} && {cursorObject isKindOf "Man"} && {(isPlayer cursorObject)} && {(side cursorObject in [civilian,west])} && {alive cursorObject} && {cursorObject distance player < 3.5} && {!(cursorObject getVariable "Escorting"} && {!(cursorObject getVariable "restrained"} && {speed cursorObject < 1}) then {
+                if (life_inv_kabelbinder > 0) then {
+                    if ([false,"kabelbinder",1] call life_fnc_handleInv) then {
+                        [] call life_fnc_restrainAction;
+                    } else {hintSilent "Du besitzt keine Kabelbinder";};
+                } else {hintSilent "Du besitzt keine Kabelbinder";};
         };
     };
+	};
 
     //Knock out, this is experimental and yeah... (Shift + G)
     case 34: {
