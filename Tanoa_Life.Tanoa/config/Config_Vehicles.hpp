@@ -249,6 +249,9 @@ class LifeCfgVehicles {
             }, "" },
             { "White", "civ", {
                 "\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_ext_white_co.paa"
+            }, "" },
+            { "GNRA", "cop", {
+                "textures\cop\jeep_gendarm.jpg"
             }, "" }
         };
     };
@@ -403,7 +406,11 @@ class LifeCfgVehicles {
         vItemSpace = 200;
         conditions = "license_cop_cAir || {!(playerSide isEqualTo west)}";
         price = 200000;
-        textures[] = {};
+        textures[] = {
+            { "GIGN", "cop", {
+                "textures\cop\ghost_gign.jpg"
+            }, "" }
+        };
     };
 
     class B_MRAP_01_hmg_F {
@@ -500,14 +507,24 @@ class LifeCfgVehicles {
         vItemSpace = 450;
         conditions = "license_civ_trucking || {!(playerSide isEqualTo civilian)}";
         price = 350000;
-        textures[] = { };
+        textures[] = {
+            { "Devil", "civ", {
+                "textures\civ\civ_hemtt_devil_0.jpg",
+                "textures\civ\civ_hemtt_devil_1.jpg",
+            }, "" }
+        };
     };
 
     class B_Truck_01_transport_F {
         vItemSpace = 325;
         conditions = "license_civ_trucking || {!(playerSide isEqualTo civilian)}";
         price = 275000;
-        textures[] = { };
+        textures[] = {
+            { "Devil", "civ", {
+                "textures\civ\civ_hemtt_devil_0.jpg",
+                "textures\civ\civ_hemtt_devil_1.jpg",
+            }, "" }
+        };
     };
 
     class O_MRAP_02_F {
