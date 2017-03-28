@@ -52,10 +52,18 @@ class CarShops {
             { "O_Truck_03_transport_F", "" },
             { "O_Truck_03_covered_F", "" },
             { "B_Truck_01_box_F", "" },
-            { "O_Truck_03_device_F", "" },
             { "C_Van_01_fuel_F", "" },
             { "I_Truck_02_fuel_F", "" },
-            { "B_Truck_01_fuel_F", "" }
+            { "B_Truck_01_fuel_F", "" },
+            { "C_Van_01_transport_F", "" },
+			{ "O_Truck_02_transport_F", "" },
+			{ "O_Truck_02_covered_F", "" },
+			{ "B_Truck_01_transport_F", "" },
+			{ "B_Truck_01_covered_F", "" },
+			{ "B_Truck_01_ammo_F", "" },
+			{ "O_Truck_02_fuel_F", "" },
+			{ "O_Truck_03_fuel_F", "" },
+            { "O_Truck_03_device_F", "" }
         };
     };
 
@@ -66,7 +74,12 @@ class CarShops {
             { "C_Heli_Light_01_civil_F", "" },
             { "B_Heli_Light_01_F", "" },
             { "O_Heli_Light_02_unarmed_F", "" },
-            { "C_Plane_Civil_01_F", "" } //Apex DLC
+            { "I_Heli_Transport_02_F", "" },
+			{ "B_Heli_Transport_03_unarmed_F", "" },
+			{ "C_Plane_Civil_01_F", "" },
+			{ "C_Plane_Civil_01_racing_F", "" },
+			{ "B_T_VTOL_01_infantry_F", "" },
+			{ "B_T_VTOL_01_infantry_F", "" }
         };
     };
 
@@ -88,10 +101,20 @@ class CarShops {
         vehicles[] = {
             { "B_Quadbike_01_F", "" },
             { "B_G_Offroad_01_F", "" },
+            { "B_MRAP_01_F", "" },
             { "O_MRAP_02_F", "" },
             { "B_Heli_Light_01_stripped_F", "" },
             { "B_G_Offroad_01_armed_F", "" },
-            { "O_T_LSV_02_unarmed_F", "" } //Apex DLC
+            { "O_T_LSV_02_unarmed_F", "" }, //Apex DLC
+            { "B_Heli_Light_01_F", "" },
+			{ "O_Heli_Light_02_unarmed_F", "" },
+			{ "I_Heli_light_03_unarmed_F", "" },
+			{ "O_Heli_Transport_04_F", "" },
+			{ "O_Heli_Transport_04_ammo_F", "" },
+			{ "O_Heli_Transport_04_bench_F", "" },
+			{ "O_Heli_Transport_04_box_F", "" },
+			{ "O_Heli_Transport_04_repair_F", "" },
+			{ "O_Heli_Transport_04_covered_F", "" }
         };
     };
 
@@ -102,7 +125,8 @@ class CarShops {
             { "C_Offroad_01_F", "" },
             { "B_Truck_01_transport_F", "" },
             { "C_SUV_01_F", "" },
-            { "B_Truck_01_medical_F", "" }
+            { "B_Truck_01_medical_F", "" },
+            { "C_Van_01_box_F", "" }
         };
     };
 
@@ -111,6 +135,7 @@ class CarShops {
         conditions = "";
         vehicles[] = {
             { "B_Heli_Light_01_F", "" },
+            { "O_Heli_Light_02_unarmed_F", "" },
             { "I_Heli_Transport_02_F", "" }
         };
     };
@@ -122,7 +147,9 @@ class CarShops {
             { "B_GEN_Offroad_01_gen_F", "" },
             { "C_SUV_01_F", "" },
             { "C_Hatchback_01_sport_F", "call life_coplevel >= 1" },
-            { "B_MRAP_01_F", "call life_coplevel >= 2" }
+            { "B_MRAP_01_F", "call life_coplevel >= 2" },
+            {"I_MRAP_03_F", "call life_coplevel >= 4" },
+			{"C_Offroad_02_unarmed_F", "call life_coplevel >= 4" }
         };
     };
 
@@ -131,7 +158,10 @@ class CarShops {
         conditions = "call life_coplevel >= 3";
         vehicles[] = {
             { "B_Heli_Light_01_F", "" },
-            { "B_Heli_Transport_01_F", "call life_coplevel >= 4" }
+            { "C_Heli_Light_01_civil_F", "" },
+			{ "I_Heli_light_03_unarmed_F", "call life_coplevel >= 4" },
+            { "B_Heli_Transport_01_F", "call life_coplevel >= 4" },
+            { "B_T_VTOL_01_infantry_F", "call life_coplevel >= 4" }
         };
     };
 
