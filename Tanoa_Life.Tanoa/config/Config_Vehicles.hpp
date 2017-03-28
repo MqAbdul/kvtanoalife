@@ -535,31 +535,31 @@ class LifeCfgVehicles {
             { "TarnRot", "reb", {
                 "textures\civ\ifrit_r1.jpg",
 				"textures\civ\ifrit_r2.jpg"
-            }, "" }
+            }, "" },
             { "Black Rebell", "reb", {
                 "textures\civ\ifrit_rebell_front.jpg",
                 "textures\civ\ifrit_rebell_back.jpg"
-            }, "" }
+            }, "" },
             { "Slovakiadragon", "adm", {
                 "textures\admin\ifrit_admin_front.jpg",
                 "textures\admin\ifrit_sl.jpg"
-            }, "" }
+            }, "" },
             { "Abdul", "adm", {
                 "textures\admin\ifrit_admin_front.jpg",
                 "textures\admin\ifrit_da.jpg"
-            }, "" }
+            }, "" },
             { "Graf", "adm", {
                 "textures\admin\ifrit_admin_front.jpg",
                 "textures\admin\ifrit_graf.jpg"
-            }, "" }
+            }, "" },
             { "JimBeam", "adm", {
                 "textures\admin\ifrit_admin_front.jpg",
                 "textures\admin\ifrit_jimbeam.jpg"
-            }, "" }
+            }, "" },
             { "Loki", "adm", {
                 "textures\admin\ifrit_admin_front.jpg",
                 "textures\admin\ifrit_loki.jpg"
-            }, "" }
+            }, "" },
             { "Falcone", "adm", {
                 "textures\admin\ifrit_admin_front.jpg",
                 "textures\admin\ifrit_df.jpg"
