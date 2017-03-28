@@ -251,7 +251,7 @@ class LifeCfgVehicles {
                 "\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_ext_white_co.paa"
             }, "" },
             { "GNRA", "cop", {
-                "textures\cop\jeep_gendarm.jpg"
+                "textures\gnra\jeep_gendarm.jpg"
             }, "" }
         };
     };
@@ -408,7 +408,7 @@ class LifeCfgVehicles {
         price = 200000;
         textures[] = {
             { "GIGN", "cop", {
-                "textures\cop\ghost_gign.jpg"
+                "textures\gnra\ghost_gign.jpg"
             }, "" }
         };
     };
@@ -532,6 +532,39 @@ class LifeCfgVehicles {
         conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
         price = 150000;
         textures[] = { };
+            { "TarnRot", "reb", {
+                "textures\civ\ifrit_r1.jpg",
+				"textures\civ\ifrit_r2.jpg"
+            }, "" }
+            { "Black Rebell", "reb", {
+                "textures\civ\ifrit_rebell_front.jpg",
+                "textures\civ\ifrit_rebell_back.jpg"
+            }, "" }
+            { "Slovakiadragon", "adm", {
+                "textures\admin\ifrit_admin_front.jpg",
+                "textures\admin\ifrit_sl.jpg"
+            }, "" }
+            { "Abdul", "adm", {
+                "textures\admin\ifrit_admin_front.jpg",
+                "textures\admin\ifrit_da.jpg"
+            }, "" }
+            { "Graf", "adm", {
+                "textures\admin\ifrit_admin_front.jpg",
+                "textures\admin\ifrit_graf.jpg"
+            }, "" }
+            { "JimBeam", "adm", {
+                "textures\admin\ifrit_admin_front.jpg",
+                "textures\admin\ifrit_jimbeam.jpg"
+            }, "" }
+            { "Loki", "adm", {
+                "textures\admin\ifrit_admin_front.jpg",
+                "textures\admin\ifrit_loki.jpg"
+            }, "" }
+            { "Falcone", "adm", {
+                "textures\admin\ifrit_admin_front.jpg",
+                "textures\admin\ifrit_df.jpg"
+            }, "" }
+        };
     };
 
     class C_Offroad_01_F {
@@ -563,13 +596,22 @@ class LifeCfgVehicles {
                 "\A3\soft_F\Offroad_01\Data\offroad_01_ext_BASE05_CO.paa",
                 "\A3\soft_F\Offroad_01\Data\offroad_01_ext_BASE05_CO.paa"
             }, "" },
+			{ "Dodge", "civ", {
+	                "textures\civ\civ_offroad_dodge.jpg"
+            }, "" },
+            { "Weed", "civ", {
+	                "textures\civ\civ_offroad_weed.jpg"
+            }, "" },
+            { "Pokemon", "civ", {
+	                "textures\civ\pokemon_off.jpg"
+			}, "" },
             { "Taxi", "civ", {
                 "#(argb,8,8,3)color(0.6,0.3,0.01,1)"
             }, "" },
             { "ART", "med", {
                 "textures\art\medic_offroad.jpg"
             }, "" },
-            { "Police", "cop", {
+            { "GNRA", "cop", {
                 "#(ai,64,64,1)Fresnel(1.3,7)"
             }, "" }
         };
@@ -616,6 +658,15 @@ will modify the virtual space and the price of the vehicle, but other informatio
             }, "" },
             { "Green", "civ", {
                 "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_sport06_co.paa"
+            }, "" },
+			{ "Metallica", "civ", {
+                "textures\civ\civ_hatchback_metallica.jpg"
+            }, "" },
+            { "Monster", "civ", {
+                "textures\civ\hatchback_sport_ken_block.jpg"
+            }, "" },
+            { "Ghostbuster", "civ", {
+                "textures\civ\ghost_hatchback_sport.jpg"
             }, "" },
             { "GNRA", "cop", {
                 "textures\gnra\hatchback_gendarm.jpg"
@@ -669,6 +720,10 @@ will modify the virtual space and the price of the vehicle, but other informatio
             }, "" },
             { "Black", "cop", {
                 "#(argb,8,8,3)color(0.05,0.05,0.05,1)"
+            }, "" },
+			{ "RedBull", "civ", {
+                "textures\civ\civ_zamak_redbull_0.jpg",
+				"textures\civ\civ_zamak_redbull_1.jpg",
             }, "" }
         };
     };
@@ -684,6 +739,10 @@ will modify the virtual space and the price of the vehicle, but other informatio
             }, "" },
             { "Black", "cop", {
                 "#(argb,8,8,3)color(0.05,0.05,0.05,1)"
+            }, "" },
+			{ "RedBull", "civ", {
+                "textures\civ\civ_zamak_redbull_0.jpg",
+				"textures\civ\civ_zamak_redbull_1.jpg",
             }, "" }
         };
     };
@@ -746,6 +805,39 @@ will modify the virtual space and the price of the vehicle, but other informatio
             }, "" },
             { "GNRA", "cop", {
                 "textures\gnra\suv_gendarm.jpg"
+			}, "" },	
+			{ "GIGN", "cop", {
+                "textures\gnra\SUV_GIGN.jpg"
+            }, "" },
+            { "Batman", "civ", {
+                "textures\civ\batman_suv.jpg"
+            }, "" },
+            { "Carbon", "civ", {
+                "textures\civ\carbon_suv.jpg"
+            }, "" },
+            { "Ferrari", "civ", {
+                "textures\civ\civ_suv_ferrari.jpg"
+            }, "" },
+            { "KV Green", "civ", {
+                "textures\civ\civ_suv_server.jpg"
+            }, "" },
+            { "KV Weiss", "civ", {
+                "textures\civ\civ_suv_server_weiss.jpg"
+            }, "" },
+            { "Skull", "civ", {
+                "textures\civ\civ_suv_skull.jpg"
+            }, "" },
+            { "Lady", "civ", {
+                "textures\civ\pink_suv.jpg"
+            }, "" },
+            { "Rostlaube", "civ", {
+                "textures\civ\suv_alt.jpg"
+            }, "" },
+            { "VIP", "vip", {
+                "textures\civ\suv_vip.jpg"
+            }, "" },
+            { "Taxi", "civ", {
+                "textures\civ\taxi_suv.jpg"
             }, "" }
         };
     };
@@ -787,10 +879,14 @@ will modify the virtual space and the price of the vehicle, but other informatio
         conditions = "";
         price = 30000;
         textures[] = {
-            { "Black", "cop", {
-                "#(argb,8,8,3)color(0.05,0.05,0.05,1)",
-                "#(argb,8,8,3)color(0.05,0.05,0.05,1)"
+            { "Digital Rot", "reb", {
+                "textures\civ\digirot_hunter_1.jpg",
+                "textures\civ\digirot_hunter_2.jpg"
             }, "" },
+			{ "Black Rebell", "reb", {
+                "textures\civ\hunter_rebell_front.jpg",
+                "textures\civ\hunter_rebell_back.jpg"
+			}, "" },
             { "GNRA", "cop", {
                 "textures\gnra\Hunter_Gendarm_Front.jpg",
                 "textures\gnra\hunter_gendarm_back.jpg"
@@ -817,9 +913,9 @@ will modify the virtual space and the price of the vehicle, but other informatio
             { "GNRA", "cop", {
                 "textures\gnra\humming_gendarm.jpg"
             }, "" },
-            { "Sheriff", "civ", {
-                "\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_sheriff_co.paa"
-            }, "" },
+			{ "ART", "med", {
+                "textures\art\art_humming.jpg"
+			}, "" },
             { "Civ Blue", "civ", {
                 "\a3\air_f\Heli_Light_01\Data\heli_light_01_ext_blue_co.paa"
             }, "" },
@@ -865,16 +961,19 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class C_Heli_Light_01_civil_F : B_Heli_Light_01_F {
         vItemSpace = 75;
         price = 245000;
+		textures[] = {
+		{ "GNRA", "cop", {
+                "textures\cop\humming_gendarm.jpg"
+            }, "" }
+        };
     };
+
 
     class O_Heli_Light_02_unarmed_F {
         vItemSpace = 210;
         conditions = "license_civ_pilot || {license_med_mAir} || {(playerSide isEqualTo west)}";
         price = 750000;
         textures[] = {
-            { "Black", "cop", {
-                "\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_co.paa"
-            }, "" },
             { "White / Blue", "civ", {
                 "\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_civilian_co.paa"
             }, "" },
@@ -884,8 +983,8 @@ will modify the virtual space and the price of the vehicle, but other informatio
             { "Desert Digi", "reb", {
                 "\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_opfor_co.paa"
             }, "" },
-            { "EMS White", "med", {
-                "#(argb,8,8,3)color(1,1,1,0.8)"
+            { "ART", "med", {
+                "textures\art\medic_orca.jpg"
             }, "" }
         };
     };
@@ -923,6 +1022,10 @@ will modify the virtual space and the price of the vehicle, but other informatio
             { "White", "civ", {
                 "\A3\Soft_F_Beta\Truck_02\data\truck_02_kab_co.paa",
                 "\A3\Soft_F_Beta\Truck_02\data\truck_02_fuel_co.paa"
+            }, "" },
+			{ "RedBull", "civ", {
+                "textures\civ\civ_zamak_redbull_0.jpg",
+				"textures\civ\civ_zamak_redbull_1.jpg",
             }, "" }
         };
     };
