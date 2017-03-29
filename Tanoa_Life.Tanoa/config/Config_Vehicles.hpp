@@ -160,8 +160,7 @@ class CarShops {
             { "B_Heli_Light_01_F", "" },
             { "C_Heli_Light_01_civil_F", "" },
 			{ "I_Heli_light_03_unarmed_F", "call life_coplevel >= 4" },
-            { "B_Heli_Transport_01_F", "call life_coplevel >= 4" },
-            { "B_T_VTOL_01_infantry_F", "call life_coplevel >= 4" }
+            { "B_Heli_Transport_01_F", "call life_coplevel >= 4" }
         };
     };
 
