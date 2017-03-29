@@ -1056,13 +1056,25 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class I_Heli_Transport_02_F {
         vItemSpace = 250;
         vFuelSpace = 500000;
-        conditions = "license_civ_trucking || {!(playerSide isEqualTo civilian)}";
+        conditions = "license_civ_pilot || {license_med_mAir} || {(playerSide isEqualTo west)}";
         price = 950000;
         textures[] = {
             { "ART", "med", {
                 "textures\art\art_mowhawk.jpg",
                 "textures\art\art_mowhawk2.jpg",
                 "textures\art\art_mowhawk3.jpg"
+            }, "" }
+        };
+		class I_Heli_light_03_unarmed_F {
+        vItemSpace = 250;
+        conditions = "license_civ_pilot || {license_med_mAir} || {(playerSide isEqualTo west)}";
+        price = 750000;
+        textures[] = {
+            { "Rebell", "reb", {
+                "textures\civ\hellcat_rebell.jpg"
+            }, "" },
+			{ "GNRA", "cop", {
+                "\textures\gnra\hellcat_gendarm.jpg"
             }, "" }
         };
     };
