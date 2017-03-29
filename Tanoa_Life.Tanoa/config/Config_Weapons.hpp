@@ -88,13 +88,7 @@ class WeaponShops {
 		    {"11Rnd_45ACP_Mag",             "", 300, 150, "" },
             {"30Rnd_9x21_Mag",              "", 300, 150, "" } ,
             {"6Rnd_45ACP_Cylinder",         "", 300, 150, "" },
-            {"30Rnd_45ACP_Mag_SMG_01",      "", 300, 150, "" },
-			{"1Rnd_SmokeRed_Grenade_shell", "", 150, 75, "" },
-            {"1Rnd_SmokeGreen_Grenade_shell",   "", 150, 75, "" },
-            {"1Rnd_SmokeYellow_Grenade_shell",  "", 150, 75, "" },
-            {"1Rnd_SmokePurple_Grenade_shell",  "", 150, 75, "" },
-            {"1Rnd_SmokeBlue_Grenade_shell",    "", 150, 75, "" },
-            {"1Rnd_SmokeOrange_Grenade_shell",  "", 150, 75, "" },
+            {"30Rnd_45ACP_Mag_SMG_01",      "", 300, 150, "" }
         };
         accs[] = {
             { "optic_ACO_grn", "", 3500, 1750, "" },
@@ -127,6 +121,12 @@ class WeaponShops {
             { "optic_KHS_hex",              "", 10000, 5000, "" },
             { "optic_KHS_old",              "", 10000, 5000, "" },
             { "optic_KHS_tan",              "", 10000, 5000, "" },
+			{"1Rnd_SmokeRed_Grenade_shell", "", 150, 75, "" },
+            {"1Rnd_SmokeGreen_Grenade_shell",   "", 150, 75, "" },
+            {"1Rnd_SmokeYellow_Grenade_shell",  "", 150, 75, "" },
+            {"1Rnd_SmokePurple_Grenade_shell",  "", 150, 75, "" },
+            {"1Rnd_SmokeBlue_Grenade_shell",    "", 150, 75, "" },
+            {"1Rnd_SmokeOrange_Grenade_shell",  "", 150, 75, "" }
         };
     };
 
@@ -232,8 +232,7 @@ class WeaponShops {
             { "20Rnd_762x51_Mag", "", 100, 50, "call life_coplevel >= 3" }, //Apex DLC
 			{ "30Rnd_9x21_Mag_SMG_02", "", 150, 75, "" },
             { "10Rnd_50BW_Mag_F", "", 300, 150, "" },
-            { "10Rnd_338_Mag", "", 300, 150, "" },
-            { "1Rnd_Smoke_Grenade_shell", "", 100, 50, "" }
+            { "10Rnd_338_Mag", "", 300, 150, "" }
         };
         accs[] = {
             { "muzzle_snds_L", "", 650, 325, "" },
@@ -252,7 +251,8 @@ class WeaponShops {
             { "muzzle_snds_L", "", 1000, 500, "" },
             { "muzzle_snds_M", "", 2000, 1000, "" },
             { "muzzle_snds_B", "", 3000, 1500, "" },
-            { "muzzle_snds_338_black", "", 4000, 2000, "" }
+            { "muzzle_snds_338_black", "", 4000, 2000, "" },
+            { "1Rnd_Smoke_Grenade_shell", "", 100, 50, "" }
         };
     };
 
