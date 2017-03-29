@@ -64,15 +64,13 @@ class WeaponShops {
             {"hgun_PDW2000_F",              "", 30000},
             {"hgun_Pistol_heavy_02_F",      "", 34000},
             {"SMG_01_F",                    "", 75000},
-            {"arifle_TRG20_F",              "", 22000, 11000, "" },
-            {"srifle_DMR_06_camo_F",        "", 22000, 11000, "" },
-			{"srifle_DMR_03_F",             "", 22000, 11000, "" },
-			{"srifle_DMR_03_woodland_F",    "", 22000, 11000, "" },
+            {"srifle_DMR_06_camo_F",        "", 90000, 45000, "" },
+			{"srifle_DMR_03_F",             "", 50000, 25000, "" },
+			{"srifle_DMR_03_woodland_F",    "", 50000, 25000, "" },
 			{"srifle_DMR_01_DMS_BI_F",      "", 30000, 15000, "" },
-			{"arifle_AK12_F",               "", 30000, 15000, "" },
 			{"arifle_AK12_GL_F",            "", 30000, 15000, "" },
-            {"srifle_LRR_camo_F",           "", 30000, 15000, "" },
-            {"srifle_DMR_05_tan_f",         "", 30000, 15000, "" }
+            {"srifle_LRR_camo_F",           "", 90000, 45000, "" },
+            {"srifle_DMR_05_tan_f",         "", 90000, 45000, "" }
         };
         mags[] = {
             { "30Rnd_556x45_Stanag", "", 300, 150, "" },
@@ -214,9 +212,8 @@ class WeaponShops {
             { "arifle_SPAR_01_blk_F", "", 35000, 17500, "call life_coplevel >= 1" },
             { "hgun_ACPC2_F", "", 17500, 8750, "call life_coplevel >= 3" },
             { "arifle_MXC_F", "", 30000, 15000, "call life_coplevel >= 3" },
-            { "arifle_SPAR_03_blk_F", "", 30000, 15000, "call life_coplevel >= 3" },			//Apex DLC Sniper
-		    { "arifle_SPAR_01_blk_F", "", 30000, 15000, "call life_coplevel >= 1" },
-            { "arifle_SPAR_01_GL_blk_F", "", 30000, 15000, "call life_coplevel >= 3" },
+            { "arifle_SPAR_03_blk_F", "", 50000, 25000, "call life_coplevel >= 3" },			//Apex DLC Sniper
+            { "arifle_SPAR_01_GL_blk_F", "", 45000, 22500, "call life_coplevel >= 4" },
             { "arifle_ARX_blk_F", "", 30000, 15000, "call life_coplevel >= 1" },
             { "srifle_DMR_02_F", "", 30000, 15000, "call life_coplevel >= 1" }
         };
