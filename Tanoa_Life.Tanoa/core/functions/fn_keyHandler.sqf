@@ -178,23 +178,18 @@ switch (_code) do {
         };
     };
 
+    //NEW ONE
     //L Key?
     case 38: {
-        //If cop run checks for turning lights on.
-        if (_shift && playerSide in [west,independent]) then {
-            if (!(isNull objectParent player) && (typeOf vehicle player) in ["C_Offroad_01_F","B_MRAP_01_F","C_SUV_01_F","C_Hatchback_01_sport_F","B_Heli_Light_01_F","B_Heli_Transport_01_F"]) then {
-                if (!isNil {vehicle player getVariable "lights"}) then {
-                    if (playerSide isEqualTo west) then {
-                        [vehicle player] call life_fnc_sirenLights;
-                    } else {
-                        [vehicle player] call life_fnc_medicSirenLights;
-                    };
-                    _handled = true;
-                };
-            };
-        };
-
-        if (!_alt && !_ctrlKey) then { [] call life_fnc_radar; };
+     //If cop run checks for turning lights on.
+     if(!isNil {vehicle player getVariable "lights"} && vehicle player != player && _shift) then {
+        if (!(vehicle player getVariable "lights")) then {
+         [vehicle player, player] spawn life_fnc_emergencyLights;
+             } else   {
+                vehicle player setVariable ["lights", false, true];
+              };
+         };
+     if(!_alt && !_ctrlKey) then { [] call life_fnc_radar; };
     };
 
     //Y Player Menu
