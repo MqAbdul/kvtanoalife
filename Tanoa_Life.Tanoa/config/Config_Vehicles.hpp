@@ -1066,7 +1066,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
             }, "" }
         };
 		class I_Heli_light_03_unarmed_F {
-        vItemSpace = 250;
+        vItemSpace = 120;
         conditions = "license_civ_pilot || {license_med_mAir} || {(playerSide isEqualTo west)}";
         price = 750000;
         textures[] = {
