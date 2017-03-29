@@ -6958,10 +6958,6 @@
             <Portuguese>Tapete de Espinhos</Portuguese>
             <Polish>Kolczatka drogowa</Polish>
         </Key>
-		<Key ID="STR_Item_kabelbinder">
-			<Original>Kabelbinder</Original>
-			<German>Kabelbinder</German>
-		</Key>
     </Package>
     <Package name="Life_License">
         <Key ID="STR_License_Driver">
