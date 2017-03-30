@@ -74,10 +74,8 @@ class CarShops {
 			{ "C_Plane_Civil_01_F", "" },
 			{ "B_T_VTOL_01_vehicle_F", "" },
 			{ "B_T_VTOL_01_infantry_F", "" },
-			{ "O_Heli_Transport_04_bench_F", "" },
 			{ "O_Heli_Transport_04_box_F", "" },
-		        { "O_Heli_Transport_04_fuel_F", "" },
-			{ "O_Heli_Transport_04_covered_F", "" }
+		        { "O_Heli_Transport_04_fuel_F", "" }
         };
     };
 
@@ -107,11 +105,7 @@ class CarShops {
             { "B_Heli_Light_01_F", "" },
 			{ "O_Heli_Light_02_unarmed_F", "" },
 			{ "I_Heli_light_03_unarmed_F", "" },
-			{ "O_Heli_Transport_04_F", "" },
-			{ "O_Heli_Transport_04_ammo_F", "" },
 			{ "O_Heli_Transport_04_bench_F", "" },
-			{ "O_Heli_Transport_04_box_F", "" },
-			{ "O_Heli_Transport_04_repair_F", "" },
 			{ "O_Heli_Transport_04_covered_F", "" }
         };
     };
