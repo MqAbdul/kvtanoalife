@@ -57,7 +57,6 @@ class CarShops {
             { "B_Truck_01_fuel_F", "" },
             { "C_Van_01_transport_F", "" },
 			{ "B_Truck_01_covered_F", "" },
-			{ "B_Truck_01_ammo_F", "" },
 			{ "O_Truck_03_fuel_F", "" },
             { "O_Truck_03_device_F", "" }
         };
@@ -496,6 +495,13 @@ class LifeCfgVehicles {
         conditions = "license_cop_cg || {!(playerSide isEqualTo west)}";
         price = 20000;
         textures[] = { };
+    };
+	
+	class B_Truck_01_covered_F {
+        vItemSpace = 390;
+        conditions = "license_civ_trucking || {!(playerSide isEqualTo civilian)}";
+        price = 310000;
+        textures[] = {};
     };
 
     class B_Truck_01_box_F {
