@@ -73,7 +73,11 @@ class CarShops {
 			{ "B_Heli_Transport_03_unarmed_F", "" },
 			{ "C_Plane_Civil_01_F", "" },
 			{ "B_T_VTOL_01_vehicle_F", "" },
-			{ "B_T_VTOL_01_infantry_F", "" }
+			{ "B_T_VTOL_01_infantry_F", "" },
+			{ "O_Heli_Transport_04_bench_F", "" },
+			{ "O_Heli_Transport_04_box_F", "" },
+		        { "O_Heli_Transport_04_fuel_F", "" },
+			{ "O_Heli_Transport_04_covered_F", "" }
         };
     };
 
@@ -1066,7 +1070,6 @@ will modify the virtual space and the price of the vehicle, but other informatio
     };
     class I_Heli_Transport_02_F {
         vItemSpace = 250;
-        vFuelSpace = 500000;
         conditions = "license_civ_pilot || {license_med_mAir} || {(playerSide isEqualTo west)}";
         price = 950000;
         textures[] = {
@@ -1076,7 +1079,50 @@ will modify the virtual space and the price of the vehicle, but other informatio
                 "textures\art\art_mowhawk3.jpg"
             }, "" }
         };
-		class I_Heli_light_03_unarmed_F {
+	    class B_Heli_Transport_03_unarmed_F {
+        vItemSpace = 250;
+        conditions = "license_civ_pilot || {license_med_mAir} || {(playerSide isEqualTo west)}";
+        price = 1500000;
+        textures[] = { };
+    };
+    class B_T_VTOL_01_vehicle_F {
+        vItemSpace = 250;
+        conditions = "license_civ_pilot || {license_med_mAir} || {(playerSide isEqualTo west)}";
+        price = 1500000;
+        textures[] = { };
+    };
+    class B_T_VTOL_01_infantry_F {
+        vItemSpace = 250;
+        conditions = "license_civ_pilot || {license_med_mAir} || {(playerSide isEqualTo west)}";
+        price = 1500000;
+        textures[] = { };
+    };
+    class O_Heli_Transport_04_box_F {
+        vItemSpace = 200;
+        conditions = "license_civ_pilot || {license_med_mAir} || {(playerSide isEqualTo west)}";
+        price = 750000;
+        textures[] = { };
+    };
+    class O_Heli_Transport_04_bench_F {
+        vItemSpace = 75;
+        conditions = "license_civ_pilot || {license_med_mAir} || {(playerSide isEqualTo west)}";
+        price = 750000;
+        textures[] = { };
+    };
+    class O_Heli_Transport_04_covered_F {
+        vItemSpace = 200;
+        conditions = "license_civ_pilot || {license_med_mAir} || {(playerSide isEqualTo west)}";
+        price = 750000;
+        textures[] = { };
+    };
+    class O_Heli_Transport_04_fuel_F {
+        vItemSpace = 75;
+        vFuelSpace = 35000;
+        conditions = "license_civ_pilot || {license_med_mAir} || {(playerSide isEqualTo west)}";
+        price = 750000;
+        textures[] = { };
+    };
+    class I_Heli_light_03_unarmed_F {
         vItemSpace = 120;
         conditions = "license_civ_pilot || {license_med_mAir} || {(playerSide isEqualTo west)}";
         price = 750000;
