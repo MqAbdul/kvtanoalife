@@ -1033,6 +1033,13 @@ will modify the virtual space and the price of the vehicle, but other informatio
         price = 250000;
         textures[] = {};
     };
+	class O_Truck_03_fuel_F {
+        vItemSpace = 50;
+        vFuelSpace = 50000;
+        conditions = "license_civ_trucking || {!(playerSide isEqualTo civilian)}";
+        price = 275000;
+        textures[] = {};
+    };
 	class I_MRAP_03_F {
         vItemSpace = 50;
         conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
