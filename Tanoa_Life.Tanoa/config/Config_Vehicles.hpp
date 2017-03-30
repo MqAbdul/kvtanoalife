@@ -522,6 +522,10 @@ class LifeCfgVehicles {
             { "Devil", "civ", {
                 "textures\civ\civ_hemtt_devil_0.jpg",
                 "textures\civ\civ_hemtt_devil_1.jpg",
+            }, "" },
+	    { "Transporter", "med", {
+                "textures\art\art_hemtt2.jpg",
+                "textures\art\art_hemtt_mover.jpg",
             }, "" }
         };
     };
