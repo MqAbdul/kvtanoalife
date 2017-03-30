@@ -72,7 +72,7 @@ class CarShops {
             { "I_Heli_Transport_02_F", "" },
 			{ "B_Heli_Transport_03_unarmed_F", "" },
 			{ "C_Plane_Civil_01_F", "" },
-			{ "B_T_VTOL_01_infantry_F", "" },
+			{ "B_T_VTOL_01_vehicle_F", "" },
 			{ "B_T_VTOL_01_infantry_F", "" }
         };
     };
