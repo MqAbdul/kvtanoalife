@@ -1073,6 +1073,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
                 "textures\art\art_mowhawk3.jpg"
             }, "" }
         };
+	};
 	    class B_Heli_Transport_03_unarmed_F {
         vItemSpace = 250;
         conditions = "license_civ_pilot || {license_med_mAir} || {(playerSide isEqualTo west)}";
