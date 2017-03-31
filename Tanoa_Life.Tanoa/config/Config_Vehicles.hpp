@@ -532,7 +532,7 @@ class LifeCfgVehicles {
     class O_MRAP_02_F {
         vItemSpace = 60;
         conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
-        price = 150000;
+        price = 500000;
         textures[] = {
             { "TarnRot", "reb", {
                 "textures\civ\ifrit_r1.jpg",
@@ -876,7 +876,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class B_MRAP_01_F {
         vItemSpace = 65;
         conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
-        price = 30000;
+        price = 500000;
         textures[] = {
             { "Digital Rot", "reb", {
                 "textures\civ\digirot_hunter_1.jpg",
@@ -1046,7 +1046,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
 	class I_MRAP_03_F {
         vItemSpace = 50;
         conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
-        price = 500000;
+        price = 750000;
         textures[] = {
             { "Rebel", "reb", {
                 "\textures\civ\rebel.jpg"
