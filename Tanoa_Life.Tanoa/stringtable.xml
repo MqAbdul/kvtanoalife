@@ -6837,6 +6837,10 @@
             <Portuguese>Chave Mestra</Portuguese>
             <Polish>Wytrych</Polish>
         </Key>
+		<Key ID="STR_Item_kabelbinder">
+			<Original>Kabelbinder</Original>
+			<German>Kabelbinder</German>
+		</Key>
         <Key ID="STR_Item_Rock">
             <Original>Rock</Original>
             <Czech>Skála</Czech>

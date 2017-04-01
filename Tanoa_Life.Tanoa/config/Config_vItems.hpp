@@ -27,14 +27,14 @@ class VirtualShops {
         name = "STR_Shops_Rebel";
         side = "civ";
         conditions = "license_civ_rebel";
-        items[] = { "waterBottle", "rabbit", "apple", "redgull", "tbacon", "lockpick", "pickaxe", "toolkit", "fuelFull", "peach", "boltcutter", "blastingcharge" };
+        items[] = { "waterBottle", "rabbit", "apple", "redgull", "tbacon", "lockpick", "pickaxe", "toolkit", "fuelFull", "peach", "boltcutter", "blastingcharge", "kabelbinder" };
     };
 
     class gang {
         name = "STR_Shops_Gang";
         side = "civ";
         conditions = "";
-        items[] = { "waterBottle", "rabbit", "apple", "redgull", "tbacon", "lockpick", "pickaxe", "toolkit", "fuelFull", "peach", "boltcutter", "blastingcharge" };
+        items[] = { "waterBottle", "rabbit", "apple", "redgull", "tbacon", "lockpick", "pickaxe", "toolkit", "fuelFull", "peach", "boltcutter", "blastingcharge", "kabelbinder" };
     };
 
     class wongs {
@@ -154,6 +154,16 @@ class VirtualItems {
         illegal = false;
         edible = -1;
         icon = "icons\ico_pickaxe.paa";
+    };
+	class kabelbinder {
+        variable = "kabelbinder";
+        displayName = "STR_Item_kabelbinder";
+        weight = 2;
+        buyPrice = 100;
+        sellPrice = 25;
+        illegal = true;
+        edible = -1;
+        icon = "#(argb,8,8,3)color(1,1,1,1)";
     };
 
     class defibrillator {
