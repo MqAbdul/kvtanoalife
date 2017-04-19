@@ -127,6 +127,41 @@ class VirtualShops {
         conditions = "";
         items[] = { "donuts", "coffee", "spikeStrip", "waterBottle", "rabbit", "apple", "redgull", "toolkit", "fuelFull", "defusekit", "defibrillator" };
     };
+	
+	class cf_exporter { //Konservenexport
+        name = "STR_Shops_CF_Exporter";
+        side = "civ";
+        conditions = "";
+        items[] = { "canned_banana", "canned_apple", "canned_peach"};
+    };
+	
+	class bakery { //Bäckerei
+        name = "STR_Shops_Bakery";
+        side = "civ";
+        conditions = "";
+        items[] = { "sugar", "cornmeal"};
+    };
+	
+	class tanoa_trading_platform { //Tanoa Handelsgesellschaft
+        name = "STR_Shops_Trading_Platform";
+        side = "civ";
+        conditions = "";
+        items[] = { "coffee_pallet", "tea_pallet", "choc_milk_pallet", "coffee_powder", "tea_bags", "cocoa_powder"};
+    };
+	
+	class wood_exporter { //Holz- und Bretterhändler
+        name = "STR_Shops_Wood_Exporter";
+        side = "civ";
+        conditions = "";
+        items[] = { "planks" };
+    };
+	
+	class furniture_market { //Möbelmarkt
+        name = "STR_Shops_Furniture_Market";
+        side = "civ";
+        conditions = "";
+        items[] = { "furniture_parts" };
+    };
 };
 
 /*
@@ -299,6 +334,39 @@ class VirtualItems {
     };
 
     //Mined Items
+	class wooden_logs { 
+        variable = "woodenLogs";
+        displayName = "STR_Item_WoodenLogs";
+        weight = 4;
+        buyPrice = -1;
+        sellPrice = -1;
+        illegal = false;
+        edible = -1;
+        icon = "icons\ico_woodenLogs.paa"; //missing
+    };
+	
+	class planks { 
+        variable = "planks";
+        displayName = "STR_Item_Planks";
+        weight = 3;
+        buyPrice = -1;
+        sellPrice = 1400;
+        illegal = false;
+        edible = -1;
+        icon = "icons\ico_planks.paa"; //missing
+    };
+	
+	class furniture_parts { 
+        variable = "furnitureParts";
+        displayName = "STR_Item_FurnitureParts";
+        weight = 3;
+        buyPrice = -1;
+        sellPrice = 4000;
+        illegal = false;
+        edible = -1;
+        icon = "icons\ico_furnitureParts.paa"; //missing
+    };
+	
     class oil_unprocessed {
         variable = "oilUnprocessed";
         displayName = "STR_Item_OilU";
@@ -522,6 +590,183 @@ class VirtualItems {
         edible = -1;
         icon = "icons\ico_cocaineProcessed.paa";
     };
+	
+	//Farmed Items
+	class canned_banana {
+        variable = "cannedBanana";
+        displayName = "STR_Item_BananaC";
+        weight = 1;
+        buyPrice = -1;
+        sellPrice = 400;
+        illegal = false;
+        edible = -1;
+        icon = "icons\ico_cannedBanana.paa"; //missing
+    };
+	
+	class canned_apple {
+        variable = "cannedApple";
+        displayName = "STR_Item_AppleC";
+        weight = 1;
+        buyPrice = -1;
+        sellPrice = 350;
+        illegal = false;
+        edible = -1;
+        icon = "icons\ico_cannedApple.paa"; //missing
+    };
+	
+	class canned_peach {
+        variable = "cannedPeach";
+        displayName = "STR_Item_PeachC";
+        weight = 1;
+        buyPrice = -1;
+        sellPrice = 425;
+        illegal = false;
+        edible = -1;
+        icon = "icons\ico_cannedPeach.paa"; //missing
+    };
+	
+	class coffee_beans {
+        variable = "coffeeBeans";
+        displayName = "STR_Item_CoffeeBeans";
+        weight = 3;
+        buyPrice = -1;
+        sellPrice = -1;
+        illegal = false;
+        edible = -1;
+        icon = "icons\ico_coffeeBeans.paa"; //missing
+    };
+	
+	class coffee_powder {
+        variable = "coffeePowder";
+        displayName = "STR_Item_CoffeePowder";
+        weight = 2;
+        buyPrice = -1;
+        sellPrice = 550;
+        illegal = false;
+        edible = -1;
+        icon = "icons\ico_coffeePowder.paa"; //missing
+    };
+	
+	class coffee_pallet { //Palette mit Kaffee
+        variable = "coffeePallet";
+        displayName = "STR_Item_CoffeePallet";
+        weight = 2;
+        buyPrice = -1;
+        sellPrice = 2200;
+        illegal = false;
+        edible = -1;
+        icon = "icons\ico_coffeePallet.paa"; //missing
+    };
+	
+	class tea_leafs {
+        variable = "teaLeafs";
+        displayName = "STR_Item_TeaLeafs";
+        weight = 3;
+        buyPrice = -1;
+        sellPrice = -1;
+        illegal = false;
+        edible = -1;
+        icon = "icons\ico_teaLeafs.paa"; //missing
+    };
+	
+	class tea_bags {
+        variable = "teaBags";
+        displayName = "STR_Item_TeaBags";
+        weight = 2;
+        buyPrice = -1;
+        sellPrice = 575;
+        illegal = false;
+        edible = -1;
+        icon = "icons\ico_teaBags.paa"; //missing
+    };
+	
+	class tea_pallet { //Palette mit Tee
+        variable = "teaPallet";
+        displayName = "STR_Item_TeaPallet";
+        weight = 2;
+        buyPrice = -1;
+        sellPrice = 2300;
+        illegal = false;
+        edible = -1;
+        icon = "icons\ico_teaPallet.paa"; //missing
+    };
+	
+	class cocoa_beans {
+        variable = "cocoaBeans";
+        displayName = "STR_Item_CocoaBeans";
+        weight = 3;
+        buyPrice = -1;
+        sellPrice = -1;
+        illegal = false;
+        edible = -1;
+        icon = "icons\ico_cocoaBeans.paa"; //missing
+    };
+	
+	class cocoa_powder {
+        variable = "cocoaPowder";
+        displayName = "STR_Item_CocoaPowder";
+        weight = 2;
+        buyPrice = -1;
+        sellPrice = 500;
+        illegal = false;
+        edible = -1;
+        icon = "icons\ico_cocoaPowder.paa"; //missing
+    };
+	
+	class chocmilk_pallet { //Palette mit Schokomilch
+        variable = "chocmilkPallet";
+        displayName = "STR_Item_ChocmilkPallet";
+        weight = 2;
+        buyPrice = -1;
+        sellPrice = 2000;
+        illegal = false;
+        edible = -1;
+        icon = "icons\ico_chocmilkPallet.paa"; //missing
+    };
+	
+	class sugar_cane {
+        variable = "sugarCane";
+        displayName = "STR_Item_SugarCane";
+        weight = 4;
+        buyPrice = -1;
+        sellPrice = -1;
+        illegal = false;
+        edible = -1;
+        icon = "icons\ico_sugarCane.paa"; //missing
+    };
+	
+	class sugar {
+        variable = "sugar";
+        displayName = "STR_Item_Sugar";
+        weight = 3;
+        buyPrice = -1;
+        sellPrice = 1600;
+        illegal = false;
+        edible = -1;
+        icon = "icons\ico_sugar.paa"; //missing
+    };
+	
+	class corn {
+        variable = "corn";
+        displayName = "STR_Item_Corn";
+        weight = 3;
+        buyPrice = -1;
+        sellPrice = -1;
+        illegal = false;
+        edible = -1;
+        icon = "icons\ico_corn.paa"; //missing
+    };
+	
+	class cornmeal {
+        variable = "cornmeal";
+        displayName = "STR_Item_Cornmeal";
+        weight = 2;
+        buyPrice = -1;
+        sellPrice = 1250;
+        illegal = false;
+        edible = -1;
+        icon = "icons\ico_cornmeal.paa"; //missing
+    };
 
     //Drink
     class redgull {
@@ -545,6 +790,28 @@ class VirtualItems {
         edible = 100;
         icon = "icons\ico_coffee.paa";
     };
+	
+	class choc_milk {
+        variable = "chocMilk";
+        displayName = "STR_Item_ChocMilk";
+        weight = 1;
+        buyPrice = 100;
+        sellPrice = 50;
+        illegal = false;
+        edible = 100;
+        icon = "icons\ico_chocmilk.paa"; //missing
+    };
+	
+	class tea {
+        variable = "tea";
+        displayName = "STR_Item_Tea";
+        weight = 1;
+        buyPrice = 100;
+        sellPrice = 50;
+        illegal = false;
+        edible = 100;
+        icon = "icons\ico_tea.paa"; //missing
+    };
 
     class waterBottle {
         variable = "waterBottle";
@@ -567,6 +834,17 @@ class VirtualItems {
         illegal = false;
         edible = 10;
         icon = "icons\ico_apple.paa";
+    };
+	
+	class banana {
+        variable = "banana";
+        displayName = "STR_Item_Banana";
+        weight = 1;
+        buyPrice = 72;
+        sellPrice = 55;
+        illegal = false;
+        edible = 15;
+        icon = "icons\ico_banana.paa"; //missing
     };
 
     class peach {
@@ -866,3 +1144,7 @@ class VirtualItems {
         icon = "icons\ico_muttonLeg.paa";
     };
 };
+
+	
+	
+	

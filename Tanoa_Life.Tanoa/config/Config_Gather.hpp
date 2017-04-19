@@ -34,6 +34,55 @@ class CfgGather {
             item = "";
             zoneSize = 30;
         };
+		
+		class banana {
+            amount = 5;
+            zones[] = { "banana_1", "banana_2", "banana_3" };
+            item = "";
+            zoneSize = 30;
+        };
+		
+		class coffee_beans {
+            amount = 3;
+            zones[] = { "coffee_1" };
+            item = "";
+            zoneSize = 30;
+        };
+		
+		class tea_leafs {
+            amount = 3;
+            zones[] = { "tea_1" };
+            item = "";
+            zoneSize = 30;
+        };
+		
+		class cocoa_beans {
+            amount = 3;
+            zones[] = { "cocoa_1" };
+            item = "";
+            zoneSize = 30;
+        };
+		
+		class sugar_cane {
+            amount = 4;
+            zones[] = { "sugar_1", "sugar_2" };
+            item = "";
+            zoneSize = 30;
+        };
+		
+		class corn {
+            amount = 4;
+            zones[] = { "corn_1" };
+            item = "";
+            zoneSize = 30;
+        };
+		
+		class wooden_logs {
+            amount = 3;
+            zones[] = { "wood_1" };
+            item = "";
+            zoneSize = 30;
+        };
     };
 
 /*

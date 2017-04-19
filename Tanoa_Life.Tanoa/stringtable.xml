@@ -300,6 +300,26 @@
             <Portuguese>Comprador de Sal</Portuguese>
             <Polish>Skup soli</Polish>
         </Key>
+		<Key ID="STR_Shops_Food_Exporter">
+            <Original>Food Exporter</Original>
+            <German>Nahrungsmittelexporteur</German>
+        </Key>
+		<Key ID="STR_Shops_Bakery">
+            <Original>Bakery</Original>
+            <German>Bäckerei</German>
+        </Key>
+		<Key ID="STR_Shops_Trading_Platform">
+            <Original>Tanoa Trading Platform</Original>
+            <German>Tanoa Handelsgesellschaft</German>
+        </Key>
+		<Key ID="STR_Shops_Wood_Exporter">
+            <Original>Wood Exporter</Original>
+            <German>Holzhändler</German>
+        </Key>
+		<Key ID="STR_Shops_Furniture_Market">
+            <Original>Furniture Market</Original>
+            <German>Möbelmarkt</German>
+        </Key>
         <Key ID="STR_Shop_Station_Coffee">
             <Original>Fuel Station Coffee</Original>
             <Czech>Palivo Coffee Station</Czech>
@@ -6232,6 +6252,104 @@
             <Portuguese>Maçãs</Portuguese>
             <Polish>Jabłka</Polish>
         </Key>
+		<Key ID="STR_Item_Banana">
+            <Original>Banana</Original>
+            <German>Banane</German>
+        </Key>
+		<Key ID="STR_Item_ChocMilk">
+            <Original>Chocmilk</Original>
+            <German>Schokomilch</German>
+        </Key>
+		<Key ID="STR_Item_Tea">
+            <Original>Tea</Original>
+            <German>Tee</German>
+        </Key>
+		<Key ID="STR_Item_BananaC">
+            <Original>Canned Banana</Original>
+            <German>Bananenkonserven</German>
+        </Key>
+		<Key ID="STR_Item_AppleC">
+            <Original>Canned Apple</Original>
+            <German>Apfelkonserven</German>
+        </Key>
+		<Key ID="STR_Item_PeachC">
+            <Original>Canned Peach</Original>
+            <German>Pfirsichkonserven</German>
+        </Key>
+		<Key ID="STR_Item_CoffeeBeans">
+            <Original>Coffee Beans</Original>
+            <German>Kaffeebohnen</German>
+        </Key>
+		<Key ID="STR_Item_CoffeePowder">
+            <Original>Coffee Powder</Original>
+            <German>Kaffeepulver</German>
+        </Key>
+		<Key ID="STR_Item_CoffeePallet">
+            <Original>Coffee Pallet</Original>
+            <German>Fertigkaffeepalette</German>
+        </Key>
+		<Key ID="STR_Item_TeaLeafs">
+            <Original>Tea Leafs</Original>
+            <German>Teeblätter</German>
+        </Key>
+		<Key ID="STR_Item_TeaBags">
+            <Original>Tea Bags</Original>
+            <German>Teebeutel</German>
+        </Key><
+		Key ID="STR_Item_TeaPallet">
+            <Original>Tea Pallet</Original>
+            <German>Teepallete</German>
+        </Key>
+		</Key><
+		Key ID="STR_Item_CocoaBeans">
+            <Original>Cocoa Beans</Original>
+            <German>Kakaobohnen</German>
+        </Key>
+		</Key><
+		Key ID="STR_Item_CocoaPowder">
+            <Original>Cocoa Powder</Original>
+            <German>Kakaopulver</German>
+        </Key>
+		</Key><
+		Key ID="STR_Item_ChocmilkPallet">
+            <Original>Chocmilk Pallet</Original>
+            <German>Schokomilchpallete</German>
+        </Key>
+		</Key><
+		Key ID="STR_Item_SugarCane">
+            <Original>Sugar Cane</Original>
+            <German>Zuckerrohr</German>
+        </Key>
+		</Key><
+		Key ID="STR_Item_Sugar">
+            <Original>Sugar</Original>
+            <German>Zucker</German>
+        </Key>
+		</Key><
+		Key ID="STR_Item_Corn">
+            <Original>Corn</Original>
+            <German>Mais</German>
+        </Key>
+		</Key><
+		Key ID="STR_Item_Cornmeal">
+            <Original>Cornmeal</Original>
+            <German>Maismehl</German>
+        </Key>
+		</Key><
+		Key ID="STR_Item_WoodenLogs">
+            <Original>Wooden Logs</Original>
+            <German>Holzstämme</German>
+        </Key>
+		</Key><
+		Key ID="STR_Item_Planks">
+            <Original>Planks</Original>
+            <German>Holzbretter</German>
+        </Key>
+		</Key><
+		Key ID="STR_Item_FurnitureParts">
+            <Original>Furniture Parts</Original>
+            <German>Möbelstücke</German>
+        </Key>
         <Key ID="STR_Item_Heroin">
             <Original>Heroin</Original>
             <Czech>Heroin</Czech>
@@ -7184,6 +7302,58 @@
             <Portuguese>Licença de Casas</Portuguese>
             <Polish>Zarządca nieruchomości</Polish>
         </Key>
+		<Key ID="STR_License_BananaC">
+            <Original>Canned Banana License</Original>
+            <German>Bananenkonservierung</German>
+        </Key>
+		<Key ID="STR_License_PeachC">
+            <Original>Canned Peach License</Original>
+            <German>Pfirsichkonservierung</German>
+        </Key>
+		<Key ID="STR_License_AppleC">
+            <Original>Canned Apple License</Original>
+            <German>Apfelkonservierung</German>
+        </Key>
+		<Key ID="STR_License_Planks">
+            <Original>Sawmill License</Original>
+            <German>Sägemühlenausbildung</German>
+        </Key>
+		<Key ID="STR_License_FurnitureP">
+            <Original>Carpenter Training</Original>
+            <German>Schreinerausbildung</German>
+        </Key>
+		<Key ID="STR_License_Cocoa">
+            <Original>Cocoa License</Original>
+            <German>Kakaolizenz</German>
+        </Key>
+		<Key ID="STR_License_Coffee">
+            <Original>Coffee License</Original>
+            <German>Kaffeelizenz</German>
+        </Key>
+		<Key ID="STR_License_Tea">
+            <Original>Tea License</Original>
+            <German>Teelizenz</German>
+        </Key>
+		<Key ID="STR_License_CocoaP">
+            <Original>Cocoa Pallet License</Original>
+            <German>Schokomilchlizenz</German>
+        </Key>
+		<Key ID="STR_License_CoffeeP">
+            <Original>Coffee Pallet License</Original>
+            <German>Kaffeeverarbeitungslizenz</German>
+        </Key>
+		<Key ID="STR_License_TeaP">
+            <Original>Tea Pallet License</Original>
+            <German>Teeverarbeitungslizenz</German>
+        </Key>
+		<Key ID="STR_License_Sugar">
+            <Original>Sugar License</Original>
+            <German>Zuckerlizenz</German>
+        </Key>
+		<Key ID="STR_License_Cornmeal">
+            <Original>Cornmeal License</Original>
+            <German>Maismehllizenz</German>
+        </Key>
     </Package>
     <Package name="More_Item_Strings">
         <Key ID="STR_ISTR_Blast_VaultOnly">
@@ -7715,6 +7885,58 @@
             <Italian>Processando Eroina</Italian>
             <Portuguese>Processando Heroína</Portuguese>
             <Polish>Oczyszczanie heroiny</Polish>
+        </Key>
+		<Key ID="STR_Process_BananaC">
+            <Original>Processing Canned Bananas</Original>
+            <German>Bananenkonserven werden abgefüllt...</German>
+        </Key>
+		<Key ID="STR_Process_AppleC">
+            <Original>Processing Canned Apples</Original>
+            <German>Apfelkonserven werden abgefüllt...</German>
+        </Key>
+		<Key ID="STR_Process_PeachC">
+            <Original>Processing Canned Peaches</Original>
+            <German>Pfirsichkonserven werden abgefüllt...</German>
+        </Key>
+		<Key ID="STR_Process_Planks">
+            <Original>Processing planks</Original>
+            <German>Holzstämme werden zu Brettern gesägt...</German>
+        </Key>
+		<Key ID="STR_Process_FurnitureP">
+            <Original>Processing Furniture Parts</Original>
+            <German>Möbelstücke werden hergestellt...</German>
+        </Key>
+		<Key ID="STR_Process_Cocoa">
+            <Original>Processing cocoa powder</Original>
+            <German>Kakaobohnen werden zerstampft und getrocknet...</German>
+        </Key>
+		<Key ID="STR_Process_Coffee">
+            <Original>Processing coffee powder</Original>
+            <German>Kaffeebohnen werden geröstet...</German>
+        </Key>
+		<Key ID="STR_Process_Tea">
+            <Original>Processing tea bags</Original>
+            <German>Tee wird getrocknet und in Beutel gefüllt...</German>
+        </Key>
+		<Key ID="STR_Process_ChocmilkP">
+            <Original>Processing Chocmilk Pallets</Original>
+            <German>Schokomilch wird abgefüllt und auf Paletten gestapelt...</German>
+        </Key>
+		<Key ID="STR_Process_CoffeeP">
+            <Original>Processing Coffee Pallets</Original>
+            <German>Kaffee wird abgefüllt und auf Paletten gestapelt...</German>
+        </Key>
+		<Key ID="STR_Process_TeaP">
+            <Original>Processing Tea Pallets</Original>
+            <German>Tee wird abgefüllt und auf Paletten gestapelt...</German>
+        </Key>
+		<Key ID="STR_Process_Sugar">
+            <Original>Processing Sugar</Original>
+            <German>Zucker wird hergestellt...</German>
+        </Key>
+		<Key ID="STR_Process_Cornmeal">
+            <Original>Processing Cornmeal</Original>
+            <German>Mais wird zu Mehl verarbeitet...</German>
         </Key>
         <Key ID="STR_Process_Copper">
             <Original>Casting Copper Ingots</Original>
@@ -9432,6 +9654,98 @@
         </Key>
     </Package>
     <Package name="Markers_names">
+	<Key ID="STR_MAR_Tea_Factory">
+            <Original>Tea Factory</Original>
+			<German>Teefabrik</German>
+        </Key>
+		<Key ID="STR_MAR_Bakery">
+            <Original>Bakery</Original>
+			<German>Bäckerei</German>
+        </Key>
+		<Key ID="STR_MAR_Furniture_Market">
+            <Original>Furniture Market</Original>
+			<German>Möbelmarkt</German>
+        </Key>
+		<Key ID="STR_MAR_Chocmilk_Factory">
+            <Original>Chocmilk Factory</Original>
+			<German>Kakaofabrik</German>
+        </Key>
+		<Key ID="STR_MAR_Cocoa_Processing">
+            <Original>Cocoa Processing</Original>
+			<German>Kakaoverarbeiter</German>
+        </Key>
+		<Key ID="STR_MAR_Banana">
+            <Original>Banana Field</Original>
+			<German>Bananenplantage</German>
+        </Key>
+		<Key ID="STR_MAR_Corn_Field">
+            <Original>Corn Field</Original>
+			<German>Maisfeld</German>
+        </Key>
+		<Key ID="STR_MAR_Wood_Exporter">
+            <Original>Wood Exporter</Original>
+			<German>Holz- und Bretterhändler</German>
+        </Key>
+		<Key ID="STR_MAR_Cocoa_Field">
+            <Original>Cocoa Field</Original>
+			<German>Kakaobohnenfarm</German>
+        </Key>
+		<Key ID="STR_MAR_Cabinet_Maker">
+            <Original>Cabinet Maker</Original>
+			<German>Möbelschreiner</German>
+        </Key>
+		<Key ID="STR_MAR_Sawmill">
+            <Original>Sawmill</Original>
+			<German>Sägemühle</German>
+        </Key>
+		<Key ID="STR_MAR_Coffee_Processing">
+            <Original>Coffee Processing</Original>
+			<German>Kaffeerösterei</German>
+        </Key>
+		<Key ID="STR_MAR_Sugar_Cane_Field">
+            <Original>Sugar Cane Field</Original>
+			<German>Zuckerrohrplantage</German>
+        </Key>
+		<Key ID="STR_MAR_Wood_Area">
+            <Original>Lumberjack's Area</Original>
+			<German>Holzfällergebiet</German>
+        </Key>
+		<Key ID="STR_MAR_Corn_Processing">
+            <Original>Corn Processing</Original>
+			<German>Getreidemühle</German>
+        </Key>
+		<Key ID="STR_MAR_Trade_Platform">
+            <Original>Tanoa Trading Platform</Original>
+			<German>Tanoa Handelsgesellschaft</German>
+        </Key>
+		<Key ID="STR_MAR_CF_Factory">
+            <Original>Canned Food Factory</Original>
+			<German>Konservenfabrik</German>
+        </Key>
+		<Key ID="STR_MAR_Sugar_Factory">
+            <Original>Sugar Factory</Original>
+			<German>Zuckerfabrik</German>
+        </Key>
+		<Key ID="STR_MAR_CF_Trader">
+            <Original>Canned Food Trader</Original>
+			<German>Konservenexport</German>
+        </Key>
+		<Key ID="STR_MAR_Tea_Processing">
+            <Original>Tea Processing</Original>
+			<German>Teeverarbeiter</German>
+        </Key>
+		<Key ID="STR_MAR_Tea_Field">
+            <Original>Tea Field</Original>
+			<German>Teeplantage</German>
+        </Key>
+		<Key ID="STR_MAR_Coffee_Field">
+            <Original>Coffee Field</Original>
+			<German>Kaffeefarm</German>
+        </Key>
+		<Key ID="STR_MAR_Coffee_Factory">
+            <Original>Coffee Factory</Original>
+			<German>Kaffeefabrik</German>
+        </Key>
         <Key ID="STR_MAR_Fish_Market">
             <Original>Fish Market</Original>
             <Czech>Rybí trh</Czech>

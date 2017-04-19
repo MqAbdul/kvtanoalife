@@ -195,4 +195,108 @@ class Licenses {
         illegal = false;
         side = "med";
     };
+	
+	class canned_banana {
+        variable = "canned_banana";
+        displayName = "STR_License_BananaC";
+        price = 7500;
+        illegal = false;
+        side = "civ";
+    };
+	
+	class canned_apple {
+        variable = "canned_apple";
+        displayName = "STR_License_AppleC";
+        price = 7500;
+        illegal = false;
+        side = "civ";
+    };
+	
+	class canned_peach {
+        variable = "canned_peach";
+        displayName = "STR_License_PeachC";
+        price = 7500;
+        illegal = false;
+        side = "civ";
+    };
+	
+	class planks {
+        variable = "planks";
+        displayName = "STR_License_Planks";
+        price = 7500;
+        illegal = false;
+        side = "civ";
+    };
+	
+	class furniture_parts {
+        variable = "furniture_parts";
+        displayName = "STR_License_FurnitureP";
+        price = 12000;
+        illegal = false;
+        side = "civ";
+    };
+	
+	class cocoa {
+        variable = "cocoa";
+        displayName = "STR_License_Cocoa";
+        price = 9000;
+        illegal = false;
+        side = "civ";
+    };
+	
+	class chocmilkP {
+        variable = "chocmilkP";
+        displayName = "STR_License_ChocmilkP";
+        price = 14000;
+        illegal = false;
+        side = "civ";
+    };
+	
+	class coffee {
+        variable = "coffee";
+        displayName = "STR_License_Coffee";
+        price = 9000;
+        illegal = false;
+        side = "civ";
+    };
+	
+	class coffeeP {
+        variable = "coffeeP";
+        displayName = "STR_License_CoffeeP";
+        price = 14000;
+        illegal = false;
+        side = "civ";
+    };
+	
+	class tea {
+        variable = "tea";
+        displayName = "STR_License_Tea";
+        price = 9000;
+        illegal = false;
+        side = "civ";
+    };
+	
+	class teaP {
+        variable = "teaP";
+        displayName = "STR_License_TeaP";
+        price = 14000;
+        illegal = false;
+        side = "civ";
+    };
+	
+	class sugar {
+        variable = "sugar";
+        displayName = "STR_License_Sugar";
+        price = 7000;
+        illegal = false;
+        side = "civ";
+    };
+	
+	class cornmeal {
+        variable = "cornmeal";
+        displayName = "STR_License_Cornmeal";
+        price = 7000;
+        illegal = false;
+        side = "civ";
+    };
 };
