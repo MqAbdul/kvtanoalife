@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=6;
+		nextID=7;
 	};
 	class Camera
 	{
-		pos[]={8361.1016,44.43,10263.556};
-		dir[]={0,-0.70710683,0.70710683};
-		up[]={0,0.70710677,0.70710677};
-		aside[]={0.99999994,0,-0};
+		pos[]={8351.1191,73.803963,10232.701};
+		dir[]={-0.26788718,-0.68631148,0.67617667};
+		up[]={-0.25278696,0.7273072,0.63806194};
+		aside[]={0.92969722,-3.7427526e-008,0.36832696};
 	};
 };
 binarizationWanted=0;
@@ -337,24 +337,6 @@ class CustomAttributes
 		name="Multiplayer";
 		class Attribute0
 		{
-			property="RespawnTemplates";
-			expression="true";
-			class Value
-			{
-				class data
-				{
-					class type
-					{
-						type[]=
-						{
-							"ARRAY"
-						};
-					};
-				};
-			};
-		};
-		class Attribute1
-		{
 			property="RespawnButton";
 			expression="true";
 			class Value
@@ -369,6 +351,24 @@ class CustomAttributes
 						};
 					};
 					value=1;
+				};
+			};
+		};
+		class Attribute1
+		{
+			property="RespawnTemplates";
+			expression="true";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"ARRAY"
+						};
+					};
 				};
 			};
 		};
@@ -1925,7 +1925,7 @@ class Mission
 			position[]={7035.3618,132.60254,4087.9617};
 			name="reb_v_2";
 			type="Empty";
-			angle=179.70584;
+			angle=179.70583;
 			id=157;
 			atlOffset=132.72253;
 		};
@@ -2383,7 +2383,7 @@ class Mission
 			position[]={6849.2598,2.6600001,7437.4902};
 			name="kart_shop_1";
 			type="Empty";
-			angle=229.1573;
+			angle=229.15729;
 			id=203;
 		};
 		class Item188
@@ -46612,7 +46612,7 @@ class Mission
 			position[]={6798.9053,0,7290.2021};
 			name="civ_air_1";
 			type="Empty";
-			angle=97.150978;
+			angle=97.15097;
 			id=6083;
 			atlOffset=-2.6600001;
 		};
@@ -46896,7 +46896,7 @@ class Mission
 			position[]={11673.966,4.8418469,3070.3794};
 			name="cop_air_2";
 			type="Empty";
-			angle=40.034416;
+			angle=40.034412;
 			id=6099;
 			atlOffset=0.0018467903;
 		};
@@ -46907,7 +46907,7 @@ class Mission
 			name="atm_marker_2_35";
 			type="loc_Tourism";
 			colorName="ColorGreen";
-			angle=307.55978;
+			angle=307.55975;
 			id=6100;
 		};
 		class Item1257
@@ -46959,7 +46959,7 @@ class Mission
 			name="atm_marker_2_36";
 			type="loc_Tourism";
 			colorName="ColorGreen";
-			angle=268.76099;
+			angle=268.76096;
 			id=6102;
 			atlOffset=4.7683716e-007;
 		};
@@ -47011,7 +47011,7 @@ class Mission
 			name="atm_marker_2_37";
 			type="loc_Tourism";
 			colorName="ColorGreen";
-			angle=287.76538;
+			angle=287.76535;
 			id=6104;
 		};
 		class Item1261
@@ -48735,7 +48735,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={7917.6567,10.170608,7723.3687};
-				angles[]={6.2812943,4.2291079,-0};
+				angles[]={6.2812943,4.2291079,0};
 			};
 			side="Empty";
 			flags=4;
@@ -50822,7 +50822,8 @@ class Mission
 					flags=7;
 					class Attributes
 					{
-						init="this enableSimulation false; " \n "this allowDamage false; " \n "this addAction[localize""Apfelkonserven abfüllen"",life_fnc_processAction,""canned_apple"",0,false,false,"""",' life_inv_apple > 0 && !life_is_processing && !life_action_inUse']; " \n "this addAction[format [""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""STR_License_AppleC"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""STR_License_AppleC"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""STR_License_AppleC"",0,false,false,"""",' !license_civ_canned_apple && playerSide isEqualTo civilian ']; " \n "";
+						init="this enableSimulation false; " \n "this allowDamage false; " \n "this addAction[""Apfelkonserven abfüllen"",life_fnc_processAction,""canned_apple"",0,false,false,"""",' life_inv_apple > 0 && !life_is_processing && !life_action_inUse']; " \n "this addAction[format [""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""canned_apple"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""canned_apple"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""canned_apple"",0,false,false,"""",' !license_civ_canned_apple && playerSide isEqualTo civilian ']; " \n "";
+						name="cffactory_1";
 					};
 					id=6265;
 					type="C_man_w_worker_F";
