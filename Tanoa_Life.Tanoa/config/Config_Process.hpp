@@ -96,7 +96,7 @@ class ProcessAction {
         //ScrollText = "Mix Cement";
         NoLicenseCost = 350;
     };
-	
+
 		class canned_banana {
         MaterialsReq[] = {{"banana",1}};
         MaterialsGive[] = {{"canned_banana",1}};
@@ -104,7 +104,7 @@ class ProcessAction {
         //ScrollText = "Can Bananas";
         NoLicenseCost = 800;
     };
-	
+
 	class canned_apple {
         MaterialsReq[] = {{"apple",1}};
         MaterialsGive[] = {{"canned_apple",1}};
@@ -112,7 +112,7 @@ class ProcessAction {
         //ScrollText = "Can Apples";
         NoLicenseCost = 800;
     };
-	
+
 	class canned_peach {
         MaterialsReq[] = {{"peach",1}};
         MaterialsGive[] = {{"canned_peach",1}};
@@ -120,7 +120,7 @@ class ProcessAction {
         //ScrollText = "Can Peaches";
         NoLicenseCost = 800;
     };
-	
+
 	class planks {
         MaterialsReq[] = {{"wooden_logs",1}};
         MaterialsGive[] = {{"planks",1}};
@@ -128,15 +128,15 @@ class ProcessAction {
         //ScrollText = "Produce Planks";
         NoLicenseCost = 700;
     };
-	
-	class planks {
+
+	class planks_F {
         MaterialsReq[] = {{"planks",2}};      //wert von f-parts noch hoch weil 2 bretter
         MaterialsGive[] = {{"furniture_parts",1}};
         Text = "STR_Process_FurnitureP";
         //ScrollText = "Produce Furniture parts";
         NoLicenseCost = 1200;
     };
-	
+
 	class cocoa {
         MaterialsReq[] = {{"cocoa_beans",1}};
         MaterialsGive[] = {{"cocoa_powder",1}};
@@ -144,7 +144,7 @@ class ProcessAction {
         //ScrollText = "Dry Cocoa Beans";
         NoLicenseCost = 900;
     };
-	
+
 	class chocmilkP {
         MaterialsReq[] = {{"cocoa_powder",2}};
         MaterialsGive[] = {{"chocmilk_pallet",1}};
@@ -152,7 +152,7 @@ class ProcessAction {
         //ScrollText = "Produce and stack Chocmilk";
         NoLicenseCost = 1400;
     };
-	
+
 	class coffee {
         MaterialsReq[] = {{"coffee_beans",1}};
         MaterialsGive[] = {{"coffee_powder",1}};
@@ -160,7 +160,7 @@ class ProcessAction {
         //ScrollText = "Dry Coffee Beans";
         NoLicenseCost = 900;
     };
-	
+
 	class coffeeP {
         MaterialsReq[] = {{"coffee_powder",2}};
         MaterialsGive[] = {{"coffee_pallet",1}};
@@ -168,7 +168,7 @@ class ProcessAction {
         //ScrollText = "Produce and stack Coffee";
         NoLicenseCost = 1400;
     };
-	
+
 	class tea {
         MaterialsReq[] = {{"tea_lefs",1}};
         MaterialsGive[] = {{"tea_bags",1}};
@@ -176,7 +176,7 @@ class ProcessAction {
         //ScrollText = "Dry Tea Leafs";
         NoLicenseCost = 900;
     };
-	
+
 	class teaP {
         MaterialsReq[] = {{"tea_bags",2}};
         MaterialsGive[] = {{"tea_pallet",1}};
@@ -184,7 +184,7 @@ class ProcessAction {
         //ScrollText = "Produce and stack Tea";
         NoLicenseCost = 1400;
     };
-	
+
 	class sugar {
         MaterialsReq[] = {{"sugar_cane",1}};
         MaterialsGive[] = {{"sugar",1}};
@@ -192,7 +192,7 @@ class ProcessAction {
         //ScrollText = "Produce Sugar";
         NoLicenseCost = 700;
     };
-	
+
 	class cornmeal {
         MaterialsReq[] = {{"corn",1}};
         MaterialsGive[] = {{"cornmeal",1}};
@@ -200,5 +200,5 @@ class ProcessAction {
         //ScrollText = "Produce Cornmeal";
         NoLicenseCost = 700;
     };
-	
+
 };
