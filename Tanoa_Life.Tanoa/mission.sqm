@@ -8,7 +8,7 @@ class EditorData
 	toggles=9;
 	class ItemIDProvider
 	{
-		nextID=6272;
+		nextID=6289;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=7;
+		nextID=9;
 	};
 	class Camera
 	{
-		pos[]={8351.1191,73.803963,10232.701};
-		dir[]={-0.26788718,-0.68631148,0.67617667};
-		up[]={-0.25278696,0.7273072,0.63806194};
-		aside[]={0.92969722,-3.7427526e-008,0.36832696};
+		pos[]={9448.0469,79.448143,9823.5918};
+		dir[]={0.77139497,-0.46458983,-0.43488547};
+		up[]={0.40471366,0.88552189,-0.22816391};
+		aside[]={-0.49110243,-1.3998942e-007,-0.87111217};
 	};
 };
 binarizationWanted=0;
@@ -426,7 +426,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=1416;
+		items=1424;
 		class Item0
 		{
 			dataType="Marker";
@@ -498,6 +498,7 @@ class Mission
 			type="Empty";
 			angle=13.856561;
 			id=8;
+			atlOffset=0.079476357;
 		};
 		class Item8
 		{
@@ -569,6 +570,7 @@ class Mission
 			type="mil_box";
 			colorName="Color4_FD_F";
 			id=16;
+			atlOffset=0.079496384;
 		};
 		class Item15
 		{
@@ -928,6 +930,7 @@ class Mission
 			type="mil_box";
 			colorName="Color4_FD_F";
 			id=53;
+			atlOffset=0.079496384;
 		};
 		class Item49
 		{
@@ -2383,7 +2386,7 @@ class Mission
 			position[]={6849.2598,2.6600001,7437.4902};
 			name="kart_shop_1";
 			type="Empty";
-			angle=229.15729;
+			angle=229.15726;
 			id=203;
 		};
 		class Item188
@@ -4230,7 +4233,6 @@ class Mission
 				angles[]={0,3.2018659,6.2826972};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 				skill=0.60000002;
@@ -4238,6 +4240,7 @@ class Mission
 			};
 			id=280;
 			type="Land_CashDesk_F";
+			atlOffset=0.57331657;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -14403,7 +14406,6 @@ class Mission
 						angles[]={0,1.0363133,0};
 					};
 					side="Civilian";
-					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
@@ -14412,7 +14414,7 @@ class Mission
 					};
 					id=951;
 					type="C_man_1";
-					atlOffset=0.15878201;
+					atlOffset=0.46189594;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -14818,7 +14820,7 @@ class Mission
 					};
 					id=960;
 					type="C_man_polo_3_F";
-					atlOffset=9.5367432e-007;
+					atlOffset=4.7683716e-007;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -15588,7 +15590,6 @@ class Mission
 						angles[]={0,3.237289,0};
 					};
 					side="Civilian";
-					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
@@ -15597,7 +15598,7 @@ class Mission
 					};
 					id=978;
 					type="C_man_1";
-					atlOffset=0.013237953;
+					atlOffset=0.47200012;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -15970,7 +15971,6 @@ class Mission
 						angles[]={0,0.36859381,6.282495};
 					};
 					side="Civilian";
-					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
@@ -15979,7 +15979,7 @@ class Mission
 					};
 					id=987;
 					type="C_man_1";
-					atlOffset=0.1111927;
+					atlOffset=0.2888999;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -16109,7 +16109,7 @@ class Mission
 					};
 					id=990;
 					type="C_man_p_fugitive_F_asia";
-					atlOffset=0.5736537;
+					atlOffset=0.57365465;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -19026,7 +19026,6 @@ class Mission
 						angles[]={0,0.18690915,6.282495};
 					};
 					side="Civilian";
-					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
@@ -19035,7 +19034,7 @@ class Mission
 					};
 					id=939;
 					type="C_man_1";
-					atlOffset=0.11119366;
+					atlOffset=0.30471802;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -23016,7 +23015,7 @@ class Mission
 			colorName="ColorGreen";
 			angle=272.67981;
 			id=1435;
-			atlOffset=0.098413467;
+			atlOffset=0.29624653;
 		};
 		class Item532
 		{
@@ -23035,6 +23034,7 @@ class Mission
 			};
 			id=1436;
 			type="Land_Atm_02_F";
+			atlOffset=0.20450211;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -26542,14 +26542,13 @@ class Mission
 				angles[]={0,0,6.2823472};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 				description="RIP Tonic";
 			};
 			id=4062;
 			type="Land_Can_V3_F";
-			atlOffset=0.00048446655;
+			atlOffset=0.50376129;
 		};
 		class Item712
 		{
@@ -46612,7 +46611,7 @@ class Mission
 			position[]={6798.9053,0,7290.2021};
 			name="civ_air_1";
 			type="Empty";
-			angle=97.15097;
+			angle=97.150963;
 			id=6083;
 			atlOffset=-2.6600001;
 		};
@@ -46959,7 +46958,7 @@ class Mission
 			name="atm_marker_2_36";
 			type="loc_Tourism";
 			colorName="ColorGreen";
-			angle=268.76096;
+			angle=268.76089;
 			id=6102;
 			atlOffset=4.7683716e-007;
 		};
@@ -47011,7 +47010,7 @@ class Mission
 			name="atm_marker_2_37";
 			type="loc_Tourism";
 			colorName="ColorGreen";
-			angle=287.76535;
+			angle=287.76532;
 			id=6104;
 		};
 		class Item1261
@@ -47268,13 +47267,13 @@ class Mission
 		class Item1281
 		{
 			dataType="Marker";
-			position[]={6322.3071,0,12806.382};
+			position[]={6317.5024,0.016723633,12799.29};
 			name="teaf_1";
 			text="@STR_MAR_Tea_Factory";
 			type="mil_triangle";
 			colorName="ColorOrange";
 			id=6125;
-			atlOffset=-1.45;
+			atlOffset=-1.44995;
 		};
 		class Item1282
 		{
@@ -47442,7 +47441,7 @@ class Mission
 			init="{ _x hideObjectGlobal true } foreach (nearestTerrainObjects [this,[],5])";
 			id=6137;
 			type="Logic";
-			atlOffset=0.21466064;
+			atlOffset=0.38899231;
 		};
 		class Item1294
 		{
@@ -47455,7 +47454,7 @@ class Mission
 			init="{ _x hideObjectGlobal true } foreach (nearestTerrainObjects [this,[],5])";
 			id=6138;
 			type="Logic";
-			atlOffset=0.15036011;
+			atlOffset=0.91268921;
 		};
 		class Item1295
 		{
@@ -47481,6 +47480,7 @@ class Mission
 			init="{ _x hideObjectGlobal true } foreach (nearestTerrainObjects [this,[],5])";
 			id=6140;
 			type="Logic";
+			atlOffset=4.4190826;
 		};
 		class Item1297
 		{
@@ -47493,6 +47493,7 @@ class Mission
 			init="{ _x hideObjectGlobal true } foreach (nearestTerrainObjects [this,[],5])";
 			id=6141;
 			type="Logic";
+			atlOffset=4.5641327;
 		};
 		class Item1298
 		{
@@ -47516,7 +47517,7 @@ class Mission
 			init="{ _x hideObjectGlobal true } foreach (nearestTerrainObjects [this,[],5])";
 			id=6143;
 			type="Logic";
-			atlOffset=0.80708313;
+			atlOffset=11.783875;
 		};
 		class Item1300
 		{
@@ -47528,7 +47529,7 @@ class Mission
 			init="{ _x hideObjectGlobal true } foreach (nearestTerrainObjects [this,[],5])";
 			id=6144;
 			type="Logic";
-			atlOffset=2.315918;
+			atlOffset=6.484848;
 		};
 		class Item1301
 		{
@@ -47540,7 +47541,7 @@ class Mission
 			init="{ _x hideObjectGlobal true } foreach (nearestTerrainObjects [this,[],5])";
 			id=6145;
 			type="Logic";
-			atlOffset=1.8224792;
+			atlOffset=6.2488251;
 		};
 		class Item1302
 		{
@@ -47553,6 +47554,7 @@ class Mission
 			init="{ _x hideObjectGlobal true } foreach (nearestTerrainObjects [this,[],5])";
 			id=6146;
 			type="Logic";
+			atlOffset=3.3015289;
 		};
 		class Item1303
 		{
@@ -47565,7 +47567,7 @@ class Mission
 			init="{ _x hideObjectGlobal true } foreach (nearestTerrainObjects [this,[],5])";
 			id=6147;
 			type="Logic";
-			atlOffset=0.52053833;
+			atlOffset=3.5965729;
 		};
 		class Item1304
 		{
@@ -47591,7 +47593,7 @@ class Mission
 			init="{ _x hideObjectGlobal true } foreach (nearestTerrainObjects [this,[],5])";
 			id=6149;
 			type="Logic";
-			atlOffset=0.5838623;
+			atlOffset=1.4598541;
 		};
 		class Item1306
 		{
@@ -47604,7 +47606,7 @@ class Mission
 			init="{ _x hideObjectGlobal true } foreach (nearestTerrainObjects [this,[],5])";
 			id=6150;
 			type="Logic";
-			atlOffset=0.049331665;
+			atlOffset=0.28265381;
 		};
 		class Item1307
 		{
@@ -47617,7 +47619,7 @@ class Mission
 			init="{ _x hideObjectGlobal true } foreach (nearestTerrainObjects [this,[],5])";
 			id=6151;
 			type="Logic";
-			atlOffset=0.097106934;
+			atlOffset=0.31669617;
 		};
 		class Item1308
 		{
@@ -47630,7 +47632,7 @@ class Mission
 			init="{ _x hideObjectGlobal true } foreach (nearestTerrainObjects [this,[],5])";
 			id=6152;
 			type="Logic";
-			atlOffset=0.48005676;
+			atlOffset=1.3976593;
 		};
 		class Item1309
 		{
@@ -47643,7 +47645,7 @@ class Mission
 			init="{ _x hideObjectGlobal true } foreach (nearestTerrainObjects [this,[],5])";
 			id=6153;
 			type="Logic";
-			atlOffset=0.69859314;
+			atlOffset=1.2277069;
 		};
 		class Item1310
 		{
@@ -47656,7 +47658,7 @@ class Mission
 			init="{ _x hideObjectGlobal true } foreach (nearestTerrainObjects [this,[],5])";
 			id=6154;
 			type="Logic";
-			atlOffset=0.092330933;
+			atlOffset=1.5575562;
 		};
 		class Item1311
 		{
@@ -48196,6 +48198,7 @@ class Mission
 					flags=7;
 					class Attributes
 					{
+						init="this enableSimulation false; this allowDamage false; this addAction[""Möbelteile herstellen"",life_fnc_processAction,""furniture_parts"",0,false,false,"""",' life_inv_planks > 0 && !life_is_processing && !life_action_inUse']; this addAction[format [""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""furniture_parts"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""furniture_parts"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,"" furniture_parts"",0,false,false,"""",' !license_civ_furniture_parts && playerSide isEqualTo civilian '];";
 					};
 					id=6181;
 					type="C_man_w_worker_F";
@@ -50815,15 +50818,26 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={8339.6084,19.431438,10289.626};
-						angles[]={0,4.6256461,0};
+						position[]={8286.127,19.431438,10336.285};
+						angles[]={0,1.4927104,0};
 					};
 					side="Civilian";
 					flags=7;
 					class Attributes
 					{
-						init="this enableSimulation false; " \n "this allowDamage false; " \n "this addAction[""Apfelkonserven abfüllen"",life_fnc_processAction,""canned_apple"",0,false,false,"""",' life_inv_apple > 0 && !life_is_processing && !life_action_inUse']; " \n "this addAction[format [""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""canned_apple"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""canned_apple"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""canned_apple"",0,false,false,"""",' !license_civ_canned_apple && playerSide isEqualTo civilian ']; " \n "";
+						init="this enableSimulation false; " \n "this allowDamage false; " \n "this addAction[""Apfelkonserven abfüllen"",life_fnc_processAction,""canned_apple"",0,false,false,"""",' life_inv_apple > 0 && !life_is_processing && !life_action_inUse']; " \n "this addAction[format [""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""canned_apple"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""canned_apple"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""canned_apple"",0,false,false,"""",' !license_civ_canned_apple && playerSide isEqualTo civilian ']; " \n "this addAction[""Bananenkonserven abfüllen"",life_fnc_processAction,""canned_banana"",0,false,false,"""",' life_inv_banana > 0 && !life_is_processing && !life_action_inUse']; this addAction[format [""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""canned_banana"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""canned_banana"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,"" canned_banana"",0,false,false,"""",' !license_civ_canned_banana && playerSide isEqualTo civilian '];" \n "this addAction[""Pfirsischkonserven abfüllen"",life_fnc_processAction,""canned_peach"",0,false,false,"""",' life_inv_peach > 0 && !life_is_processing && !life_action_inUse']; this addAction[format [""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""canned_peach"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""canned_peach"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,"" canned_peach"",0,false,false,"""",' !license_civ_canned_peach && playerSide isEqualTo civilian '];";
 						name="cffactory_1";
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="U_C_WorkerCoveralls";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+						};
 					};
 					id=6265;
 					type="C_man_w_worker_F";
@@ -50888,24 +50902,655 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={12174.678,49.828396,8131.2358};
-						angles[]={0,2.6362388,0};
+						position[]={12174.678,49.827911,8131.2358};
+						angles[]={0,2.6362326,0};
 					};
 					side="Civilian";
 					flags=7;
 					class Attributes
 					{
+						init="this enableSimulation false; this allowDamage false; this addAction[""Schokomilch abfüllen"",life_fnc_processAction,""chocmilk_pallet"",0,false,false,"""",' life_inv_cocoa_powder > 0 && !life_is_processing && !life_action_inUse']; this addAction[format [""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""chocmilk_pallet"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""chocmilk_pallet"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,"" chocmilk_pallet"",0,false,false,"""",' !license_civ_chocmilk_pallet && playerSide isEqualTo civilian '];";
 					};
 					id=6271;
 					type="C_Nikos_aged";
-					atlOffset=0.21448517;
+					atlOffset=0.2140007;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="face";
+							expression="_this setface _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.02;
+								};
+							};
+						};
+						nAttributes=2;
+					};
 				};
 			};
 			class Attributes
 			{
 			};
 			id=6270;
-			atlOffset=0.21448517;
+			atlOffset=0.2140007;
+		};
+		class Item1416
+		{
+			dataType="Group";
+			side="Civilian";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11723.813,18.818659,6936.814};
+						angles[]={0,2.9253287,0};
+					};
+					side="Civilian";
+					flags=7;
+					class Attributes
+					{
+						init="this enableSimulation false; this allowDamage false; this addAction[""Bretter herstellen"",life_fnc_processAction,""planks"",0,false,false,"""",' life_inv_wooden_logs > 0 && !life_is_processing && !life_action_inUse']; this addAction[format [""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""planks"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""planks"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,"" planks"",0,false,false,"""",' !license_civ_planks && playerSide isEqualTo civilian '];";
+					};
+					id=6274;
+					type="C_man_w_worker_F";
+					atlOffset=0.10599899;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male04GRE";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.03;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=6273;
+			atlOffset=0.10599899;
+		};
+		class Item1417
+		{
+			dataType="Group";
+			side="Civilian";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={5163.8291,6.2614951,8645.5215};
+						angles[]={0,4.2281475,0};
+					};
+					side="Civilian";
+					flags=7;
+					class Attributes
+					{
+						init="this enableSimulation false; this allowDamage false; this addAction[""Kakaobohnen trocknen"",life_fnc_processAction,""cocoa_powder"",0,false,false,"""",' life_inv_cocoa_beans > 0 && !life_is_processing && !life_action_inUse']; this addAction[format [""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""cocoa_powder"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""cocoa_powder"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,"" cocoa_powder"",0,false,false,"""",' !license_civ_cocoa_powder && playerSide isEqualTo civilian '];";
+					};
+					id=6276;
+					type="C_Man_casual_3_F_tanoan";
+					atlOffset=0.0574193;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male02FRE";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=6275;
+			atlOffset=0.0574193;
+		};
+		class Item1418
+		{
+			dataType="Group";
+			side="Civilian";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={6023.7988,8.8154392,10175.25};
+						angles[]={0,3.6283126,0};
+					};
+					side="Civilian";
+					flags=7;
+					class Attributes
+					{
+						init="this enableSimulation false; this allowDamage false; this addAction[""Schokomilch abfüllen"",life_fnc_processAction,""chocmilk_pallet"",0,false,false,"""",' life_inv_cocoa_powder > 0 && !life_is_processing && !life_action_inUse']; this addAction[format [""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""chocmilk_pallet"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""chocmilk_pallet"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,"" chocmilk_pallet"",0,false,false,"""",' !license_civ_chocmilk_pallet && playerSide isEqualTo civilian '];";
+					};
+					id=6278;
+					type="C_Man_casual_1_F_tanoan";
+					atlOffset=0.00027942657;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male02FRE";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.98000002;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=6277;
+			atlOffset=0.00027942657;
+		};
+		class Item1419
+		{
+			dataType="Group";
+			side="Civilian";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={12827.004,3.9314389,4877.8916};
+						angles[]={0,3.1662717,0};
+					};
+					side="Civilian";
+					flags=7;
+					class Attributes
+					{
+						init="this enableSimulation false; this allowDamage false; this addAction[""Kaffee abfüllen"",life_fnc_processAction,""coffee_pallet"",0,false,false,"""",' life_inv_coffee_powder > 0 && !life_is_processing && !life_action_inUse']; this addAction[format [""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""coffee_pallet"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""coffee_pallet"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,"" coffee_pallet"",0,false,false,"""",' !license_civ_coffee_pallet && playerSide isEqualTo civilian '];";
+					};
+					id=6280;
+					type="C_man_w_worker_F";
+					atlOffset=0.049999952;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male02GRE";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.04;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=6279;
+			atlOffset=0.049999952;
+		};
+		class Item1420
+		{
+			dataType="Group";
+			side="Civilian";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={9686.1797,27.278494,13288.64};
+						angles[]={0,4.2075353,0};
+					};
+					side="Civilian";
+					flags=7;
+					class Attributes
+					{
+						init="this enableSimulation false; this allowDamage false; this addAction[""Teeblätter trocknen"",life_fnc_processAction,""tea_bags"",0,false,false,"""",' life_inv_tea_leafs > 0 && !life_is_processing && !life_action_inUse']; this addAction[format [""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""tea_bags"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""tea_bags"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,"" tea_bags"",0,false,false,"""",' !license_civ_tea_bags && playerSide isEqualTo civilian '];";
+					};
+					id=6282;
+					type="C_man_w_worker_F";
+					atlOffset=0.00017738342;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male03GRE";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.04;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=6281;
+			atlOffset=0.00017738342;
+		};
+		class Item1421
+		{
+			dataType="Group";
+			side="Civilian";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={6318.2148,1.4717515,12798.474};
+						angles[]={0,5.9276443,0};
+					};
+					side="Civilian";
+					flags=7;
+					class Attributes
+					{
+						init="this enableSimulation false; this allowDamage false; this addAction[""Tee abfüllen"",life_fnc_processAction,""tea_pallet"",0,false,false,"""",' life_inv_tea_bags > 0 && !life_is_processing && !life_action_inUse']; this addAction[format [""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""tea_pallet"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""tea_pallet"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,"" tea_pallet"",0,false,false,"""",' !license_civ_tea_pallet && playerSide isEqualTo civilian '];";
+					};
+					id=6284;
+					type="C_man_w_worker_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male05GRE";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.95999998;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=6283;
+		};
+		class Item1422
+		{
+			dataType="Group";
+			side="Civilian";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={9095.1904,74.701439,11235.189};
+						angles[]={0,4.3723464,0};
+					};
+					side="Civilian";
+					flags=7;
+					class Attributes
+					{
+						init="this enableSimulation false; this allowDamage false; this addAction[""Zuckerrohr pressen"",life_fnc_processAction,""sugar"",0,false,false,"""",' life_inv_sugar_cane > 0 && !life_is_processing && !life_action_inUse']; this addAction[format [""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""sugar"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""sugar"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,"" sugar"",0,false,false,"""",' !license_civ_sugar && playerSide isEqualTo civilian '];";
+					};
+					id=6286;
+					type="C_scientist_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male01GRE";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=6285;
+		};
+		class Item1423
+		{
+			dataType="Group";
+			side="Civilian";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={9477.6338,62.297047,9813.6768};
+						angles[]={0,4.958672,0};
+					};
+					side="Civilian";
+					flags=7;
+					class Attributes
+					{
+						init="this enableSimulation false; this allowDamage false; this addAction[""Zuckerrohr pressen"",life_fnc_processAction,""sugar"",0,false,false,"""",' life_inv_sugar_cane > 0 && !life_is_processing && !life_action_inUse']; this addAction[format [""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""sugar"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""sugar"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,"" sugar"",0,false,false,"""",' !license_civ_sugar && playerSide isEqualTo civilian '];";
+					};
+					id=6288;
+					type="C_scientist_F";
+					atlOffset=-3.8146973e-006;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male01GRE";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=6287;
+			atlOffset=-3.8146973e-006;
 		};
 	};
 };
